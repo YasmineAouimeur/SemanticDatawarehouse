@@ -1,0 +1,1613 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="http://sdw.aksw.org/metardf/"
+    xmlns:j.1="http://ns.inria.fr/dbpediafr/voc#" > 
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#c350bb4f-3a55-435e-874a-6c93c65e11da">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Aral-Statements"/>
+    <rdf:object rdf:resource="http://dbpedia.org/resource/Aral_AG"/>
+    <rdf:predicate rdf:resource="http://dbpedia.org/ontology/wikiPageDisambiguates"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Aral"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#8261bc64-42cf-415b-aa8b-7cff560f3555">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Play_Around_the_Christmas_Tree-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2005-07-30T03:35:11</rdf:object>
+    <rdf:predicate rdf:resource="http://purl.org/dc/element/1.1/created"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Play_Around_the_Christmas_Tree-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#9da3d413-735c-4ed3-9958-cffb8df15d5a">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/String_Quartet_No._10_(Beethoven)-Statements"/>
+    <rdf:object rdf:resource="http://dbpedia.org/resource/Artaria"/>
+    <rdf:predicate rdf:resource="http://dbpedia.org/ontology/wikiPageWikiLink"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/String_Quartet_No._10_(Beethoven)"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#2830e5b1-4026-4a6f-8b44-fec94f572936">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/It&apos;s_a_Great_Feeling-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">110</rdf:object>
+    <rdf:predicate rdf:resource="http://www.w3.org/2004/03/trix/swp-2/isVersion"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/It&apos;s_a_Great_Feeling-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#0d88086d-03cd-4b70-bc5a-695b5919d6f5">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Guardic-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</rdf:object>
+    <rdf:predicate rdf:resource="http://ns.inria.fr/dbpediafr/voc#revPerLastMonth1"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Guardic-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#f8ec15fa-cd1e-4a0b-bbde-e0a7a6de477d">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Peace_and_Love_(The_Pogues_album)-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</rdf:object>
+    <rdf:predicate rdf:resource="http://ns.inria.fr/dbpediafr/voc#revPerLastMonth2"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Peace_and_Love_(The_Pogues_album)-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#2acd8c34-5935-422e-9f22-b3b47b5e4392">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Symphony_or_Damn-Statements"/>
+    <rdf:object rdf:resource="http://dbpedia.org/resource/Columbia_Records"/>
+    <rdf:predicate rdf:resource="http://dbpedia.org/ontology/recordLabel"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Symphony_or_Damn"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#81f58407-c16f-4e39-a20c-0f8e87cac60d">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Black_Coffee_(Peggy_Lee_album)-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</rdf:object>
+    <rdf:predicate rdf:resource="http://ns.inria.fr/dbpediafr/voc#revPerYear2013"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Black_Coffee_(Peggy_Lee_album)-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#b0da4390-5e18-4be0-b212-98f68f5bc567">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Semi_Joseph_Begun-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">87</rdf:object>
+    <rdf:predicate rdf:resource="http://www.w3.org/2004/03/trix/swp-2/isVersion"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Semi_Joseph_Begun-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#d42fd09f-d2ba-4234-a886-549eff39bb86">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/String_Quartet_No._10_(Beethoven)-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</rdf:object>
+    <rdf:predicate rdf:resource="http://ns.inria.fr/dbpediafr/voc#revPerYear2015"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/String_Quartet_No._10_(Beethoven)-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#8c2b2391-41a8-4ad2-b16a-856801c0b325">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Black_Coffee_(Peggy_Lee_album)-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</rdf:object>
+    <rdf:predicate rdf:resource="http://ns.inria.fr/dbpediafr/voc#revPerLastMonth2"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Black_Coffee_(Peggy_Lee_album)-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#75da6d50-41c9-44c8-9e75-1d253fee90b8">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Eagle_Lion_Films_Inc.-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2005-07-30T06:39:42</rdf:object>
+    <rdf:predicate rdf:resource="http://purl.org/dc/element/1.1/modified"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Eagle_Lion_Films_Inc.-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#b74645ce-6585-42a0-a99a-2ff9cbe87036">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Montreux_Festival-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</rdf:object>
+    <rdf:predicate rdf:resource="http://ns.inria.fr/dbpediafr/voc#revPerLastMonth2"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Montreux_Festival-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Ronin_(band)-Meta-Meta">
+    <j.1:hasSource rdf:resource="http://ns.inria.fr/dbpediafr/resource#DBpediaGermanDataset_16_11_14"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#b19f69b3-ec71-4e6a-854f-92d785e71cac">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Lineas_Aereas_Federales-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</rdf:object>
+    <rdf:predicate rdf:resource="http://ns.inria.fr/dbpediafr/voc#uniqueContributorNb"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Lineas_Aereas_Federales-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#535f2f37-85b0-4252-a3f3-0ddfd59fbcf5">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Gift_of_Gab_(film)-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2005-07-31T17:56:22</rdf:object>
+    <rdf:predicate rdf:resource="http://purl.org/dc/element/1.1/created"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Gift_of_Gab_(film)-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#f772c4ce-bece-405f-a24d-fb472e7602ca">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Iain_Pears-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</rdf:object>
+    <rdf:predicate rdf:resource="http://ns.inria.fr/dbpediafr/voc#revPerLastMonth2"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Iain_Pears-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#0ed2a2fe-06d5-45f9-a11b-cef8ff3c4eb1">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Symphony_or_Damn-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</rdf:object>
+    <rdf:predicate rdf:resource="http://ns.inria.fr/dbpediafr/voc#revPerYear2016"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Symphony_or_Damn-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#0f4908a0-4594-459e-bf58-61068be988ca">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Mix_of_Life-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</rdf:object>
+    <rdf:predicate rdf:resource="http://ns.inria.fr/dbpediafr/voc#revPerYear2013"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Mix_of_Life-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#a86fb360-5ac7-4a8e-8382-7f7a1d9adc6e">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Constantia_(typeface)-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</rdf:object>
+    <rdf:predicate rdf:resource="http://ns.inria.fr/dbpediafr/voc#uniqueContributorNb"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Constantia_(typeface)-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#7d1df29c-058e-40e9-940f-93b4d735c7ff">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Breakin&apos;_(song)-Statements"/>
+    <rdf:object rdf:resource="http://dbpedia.org/resource/Virgin_Records"/>
+    <rdf:predicate rdf:resource="http://dbpedia.org/property/label"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Breakin&apos;_(song)"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#9e87bc78-9a6f-4f2e-b0ff-338247609505">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Montreux_Festival-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</rdf:object>
+    <rdf:predicate rdf:resource="http://ns.inria.fr/dbpediafr/voc#uniqueContributorNb"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Montreux_Festival-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#e6397942-ed0c-4364-8d49-5aa1c3b301bb">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Robo_Aleste-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">79</rdf:object>
+    <rdf:predicate rdf:resource="http://www.w3.org/2004/03/trix/swp-2/isVersion"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Robo_Aleste-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#ab282e9d-2e22-4d00-a769-6d7c982c9d39">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Kentucky_Cardinal-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</rdf:object>
+    <rdf:predicate rdf:resource="http://ns.inria.fr/dbpediafr/voc#revPerLastMonth1"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Kentucky_Cardinal-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#6d30976c-a27c-44a6-b2a7-b6552d62a09c">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Play_Around_the_Christmas_Tree-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</rdf:object>
+    <rdf:predicate rdf:resource="http://ns.inria.fr/dbpediafr/voc#revPerLastMonth2"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Play_Around_the_Christmas_Tree-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#912d6f93-47c6-4193-892b-f08e1b5ee13d">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Mix_of_Life-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</rdf:object>
+    <rdf:predicate rdf:resource="http://ns.inria.fr/dbpediafr/voc#revPerYear2014"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Mix_of_Life-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#5eab2f82-11dd-44b0-bfa5-617a8736ca14">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Feline_(The_Stranglers_album)-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">95</rdf:object>
+    <rdf:predicate rdf:resource="http://www.w3.org/2004/03/trix/swp-2/isVersion"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Feline_(The_Stranglers_album)-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#e671cbe6-ddd5-4cc0-ac4c-d8cd3af090ac">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Constantia_(typeface)-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rdf:object>
+    <rdf:predicate rdf:resource="http://ns.inria.fr/dbpediafr/voc#revPerYear2015"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Constantia_(typeface)-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#d5e661c7-6857-4a8e-97a6-5c60ad692f2c">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Montreux_Festival-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</rdf:object>
+    <rdf:predicate rdf:resource="http://ns.inria.fr/dbpediafr/voc#revPerYear2013"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Montreux_Festival-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#4ac229b7-dee8-464e-a19f-4202b76dae8f">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/USS_Stockton_(DD-646)-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</rdf:object>
+    <rdf:predicate rdf:resource="http://ns.inria.fr/dbpediafr/voc#revPerYear2016"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/USS_Stockton_(DD-646)-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#ac9d8501-f1b3-4adf-9b27-444db279c209">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Breakin&apos;_(song)-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">40</rdf:object>
+    <rdf:predicate rdf:resource="http://www.w3.org/2004/03/trix/swp-2/isVersion"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Breakin&apos;_(song)-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#62c5346f-d2c3-4d28-a2e3-9712f8f70ff2">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Breakin&apos;_(song)-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-01-25T04:12:02</rdf:object>
+    <rdf:predicate rdf:resource="http://purl.org/dc/element/1.1/modified"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Breakin&apos;_(song)-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#75cac71e-df78-4cb5-97bb-878bac0a1c7a">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/String_Quartet_No._10_(Beethoven)-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2005-08-03T00:54:44</rdf:object>
+    <rdf:predicate rdf:resource="http://purl.org/dc/element/1.1/created"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/String_Quartet_No._10_(Beethoven)-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#e7ee8592-574a-4cf6-b0ff-3831d226e32a">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Ronin_(band)-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-08-14T17:53:48</rdf:object>
+    <rdf:predicate rdf:resource="http://purl.org/dc/element/1.1/modified"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Ronin_(band)-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#fae9d48a-994d-4435-93d0-d9473fc43271">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Lineas_Aereas_Federales-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</rdf:object>
+    <rdf:predicate rdf:resource="http://ns.inria.fr/dbpediafr/voc#revPerLastMonth1"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Lineas_Aereas_Federales-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#452c6994-c530-4dd9-bac5-a5c8c6ddaa72">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/My_Name_Is_Mud-Statements"/>
+    <rdf:object rdf:resource="http://dbpedia.org/resource/Interscope_Records"/>
+    <rdf:predicate rdf:resource="http://dbpedia.org/ontology/recordLabel"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/My_Name_Is_Mud"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#6b3abbca-b6ed-4a74-87b4-ede5c3de699f">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Kentucky_Cardinal-Statements"/>
+    <rdf:object rdf:resource="http://dbpedia.org/resource/Union_Pacific_Railroad"/>
+    <rdf:predicate rdf:resource="http://dbpedia.org/property/owners"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Kentucky_Cardinal"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#ae7cc3b8-1d42-4125-9ccc-fd498a0d6547">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Semi_Joseph_Begun-Statements"/>
+    <rdf:object rdf:resource="http://dbpedia.org/resource/ITT_Corporation"/>
+    <rdf:predicate rdf:resource="http://dbpedia.org/ontology/wikiPageWikiLink"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Semi_Joseph_Begun"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#7e1f3dc7-ed0d-427b-af8b-755d04516ad1">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Robo_Aleste-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</rdf:object>
+    <rdf:predicate rdf:resource="http://ns.inria.fr/dbpediafr/voc#revPerLastMonth1"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Robo_Aleste-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#0c0f44ea-379a-4fd0-9e93-9431df5bd99c">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Scar_(song)-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">122</rdf:object>
+    <rdf:predicate rdf:resource="http://www.w3.org/2004/03/trix/swp-2/isVersion"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Scar_(song)-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Constantia_(typeface)-Meta-Meta">
+    <j.1:hasSource rdf:resource="http://ns.inria.fr/dbpediafr/resource#DBpediaGermanDataset_16_11_14"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#c4e6a26e-cfac-4157-a365-f61403c9b35f">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/USS_Stockton_(DD-646)-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</rdf:object>
+    <rdf:predicate rdf:resource="http://ns.inria.fr/dbpediafr/voc#revPerLastMonth1"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/USS_Stockton_(DD-646)-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#70cad536-60c6-424d-8757-17b2262a245a">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Slime_I-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</rdf:object>
+    <rdf:predicate rdf:resource="http://ns.inria.fr/dbpediafr/voc#revPerYear2014"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Slime_I-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#0ea16893-188d-4895-b242-8d5718562755">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Breakin&apos;_(song)-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</rdf:object>
+    <rdf:predicate rdf:resource="http://ns.inria.fr/dbpediafr/voc#revPerLastMonth1"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Breakin&apos;_(song)-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#0bc26e17-f1e9-4cd0-abb4-23c63105c836">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Ronin_(band)-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2005-07-31T09:40:09</rdf:object>
+    <rdf:predicate rdf:resource="http://purl.org/dc/element/1.1/created"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Ronin_(band)-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#f731ebc8-362b-4156-a3cd-732855660410">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/It&apos;s_a_Great_Feeling-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">58</rdf:object>
+    <rdf:predicate rdf:resource="http://ns.inria.fr/dbpediafr/voc#uniqueContributorNb"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/It&apos;s_a_Great_Feeling-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#71299cfc-96f7-4e79-bf5f-6ddace1562dc">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Guardic-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">51</rdf:object>
+    <rdf:predicate rdf:resource="http://www.w3.org/2004/03/trix/swp-2/isVersion"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Guardic-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#449c1fea-c02c-4f15-9c12-aff0c0e6f810">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Robo_Aleste-Statements"/>
+    <rdf:object rdf:resource="http://dbpedia.org/resource/Sega"/>
+    <rdf:predicate rdf:resource="http://dbpedia.org/ontology/distributor"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Robo_Aleste"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#bb802bac-57ef-493a-a1d8-2df0d247551e">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/The_Calling_(Hilltop_Hoods_album)-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</rdf:object>
+    <rdf:predicate rdf:resource="http://ns.inria.fr/dbpediafr/voc#revPerLastMonth2"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/The_Calling_(Hilltop_Hoods_album)-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#523c20e9-0f4f-4c2e-b930-06633cdded9b">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Constantia_(typeface)-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">95</rdf:object>
+    <rdf:predicate rdf:resource="http://www.w3.org/2004/03/trix/swp-2/isVersion"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Constantia_(typeface)-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#ed85bdd4-9742-43f5-bf13-66ffc3da0a82">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Mark_13_torpedo-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</rdf:object>
+    <rdf:predicate rdf:resource="http://ns.inria.fr/dbpediafr/voc#revPerLastMonth2"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Mark_13_torpedo-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#c2cae3a8-5bf3-4460-844d-0875778af301">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Interland_Inc.-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2005-07-31T04:12:07</rdf:object>
+    <rdf:predicate rdf:resource="http://purl.org/dc/element/1.1/created"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Interland_Inc.-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Feline_(The_Stranglers_album)-Meta-Meta">
+    <j.1:hasSource rdf:resource="http://ns.inria.fr/dbpediafr/resource#DBpediaGermanDataset_16_11_14"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#f1c65ce0-2b73-4561-ab1f-8da8eeff20e0">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Symphony_or_Damn-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">48</rdf:object>
+    <rdf:predicate rdf:resource="http://ns.inria.fr/dbpediafr/voc#uniqueContributorNb"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Symphony_or_Damn-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#6279935f-585f-4717-b4bd-a1a3fda5ac18">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Aral-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</rdf:object>
+    <rdf:predicate rdf:resource="http://ns.inria.fr/dbpediafr/voc#revPerYear2016"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Aral-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#5738734d-273e-4410-941e-fa2a05a8a1df">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Symphony_or_Damn-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</rdf:object>
+    <rdf:predicate rdf:resource="http://ns.inria.fr/dbpediafr/voc#revPerYear2015"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Symphony_or_Damn-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Interland_Inc.-Meta-Meta">
+    <j.1:hasSource rdf:resource="http://ns.inria.fr/dbpediafr/resource#DBpediaGermanDataset_16_11_14"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#34eb27a8-cf02-4781-994b-cd494cc22277">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Nordea_Bank_Finland-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</rdf:object>
+    <rdf:predicate rdf:resource="http://ns.inria.fr/dbpediafr/voc#revPerLastMonth1"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Nordea_Bank_Finland-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#b3c51889-ff5f-4bac-9135-de28b55a6631">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/String_Quartet_No._10_(Beethoven)-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rdf:object>
+    <rdf:predicate rdf:resource="http://ns.inria.fr/dbpediafr/voc#revPerYear2016"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/String_Quartet_No._10_(Beethoven)-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#a74d43fd-a2ba-4202-bc79-04ca959dbe96">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/USS_Stockton_(DD-646)-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">32</rdf:object>
+    <rdf:predicate rdf:resource="http://ns.inria.fr/dbpediafr/voc#uniqueContributorNb"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/USS_Stockton_(DD-646)-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#945ad358-271e-4588-b1fe-2465fc442d27">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Play_Around_the_Christmas_Tree-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</rdf:object>
+    <rdf:predicate rdf:resource="http://ns.inria.fr/dbpediafr/voc#revPerLastMonth1"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Play_Around_the_Christmas_Tree-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#51118ea0-b3ff-49d2-a384-86ddd0c6c699">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Central_Point_Anti-Virus-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-08-19T17:20:38</rdf:object>
+    <rdf:predicate rdf:resource="http://purl.org/dc/element/1.1/modified"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Central_Point_Anti-Virus-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#25b8c8dd-5131-4649-b7bc-baf9fcf51698">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Mix_of_Life-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2005-07-31T16:49:03</rdf:object>
+    <rdf:predicate rdf:resource="http://purl.org/dc/element/1.1/created"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Mix_of_Life-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#59ca4b87-d5ad-4fd0-a241-40233d6706f1">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Slime_I-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</rdf:object>
+    <rdf:predicate rdf:resource="http://ns.inria.fr/dbpediafr/voc#uniqueContributorNb"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Slime_I-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#8f8bf2fa-9806-4d0e-91c2-94ff9e030e28">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Ronin_(band)-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</rdf:object>
+    <rdf:predicate rdf:resource="http://ns.inria.fr/dbpediafr/voc#revPerYear2015"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Ronin_(band)-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#63a9fd60-de82-4045-8d55-0cfd0f9b2375">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/My_Name_Is_Mud-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">137</rdf:object>
+    <rdf:predicate rdf:resource="http://ns.inria.fr/dbpediafr/voc#uniqueContributorNb"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/My_Name_Is_Mud-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#1cce8a4a-ac37-4242-92e6-aaa8ac073524">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Semi_Joseph_Begun-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</rdf:object>
+    <rdf:predicate rdf:resource="http://ns.inria.fr/dbpediafr/voc#revPerYear2016"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Semi_Joseph_Begun-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#140242a4-043a-4d6b-816c-f9244b6ca300">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Dragon&apos;s_Kiss-Statements"/>
+    <rdf:object rdf:resource="http://dbpedia.org/resource/Shrapnel_Records"/>
+    <rdf:predicate rdf:resource="http://dbpedia.org/property/label"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Dragon&apos;s_Kiss"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#9b709ed6-9455-4aa6-9bbc-f50599c6093d">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Peace_and_Love_(The_Pogues_album)-Statements"/>
+    <rdf:object rdf:resource="http://dbpedia.org/resource/Island_Records"/>
+    <rdf:predicate rdf:resource="http://dbpedia.org/ontology/recordLabel"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Peace_and_Love_(The_Pogues_album)"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Aral-Meta-Meta">
+    <j.1:hasSource rdf:resource="http://ns.inria.fr/dbpediafr/resource#DBpediaGermanDataset_16_11_14"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#e525ab02-12cd-4827-b28b-e8965e6aace0">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Semi_Joseph_Begun-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-10-17T18:27:49</rdf:object>
+    <rdf:predicate rdf:resource="http://purl.org/dc/element/1.1/modified"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Semi_Joseph_Begun-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#0f42ef9c-30ec-4130-b28d-f76048ba633c">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Montreux_Festival-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</rdf:object>
+    <rdf:predicate rdf:resource="http://www.w3.org/2004/03/trix/swp-2/isVersion"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Montreux_Festival-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#1b066888-3905-451c-b3c7-c3e6a7d31a54">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Kentucky_Cardinal-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-09-09T16:05:41</rdf:object>
+    <rdf:predicate rdf:resource="http://purl.org/dc/element/1.1/modified"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Kentucky_Cardinal-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#c61b6336-1abd-4d76-872f-82897cdbd075">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Kentucky_Cardinal-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</rdf:object>
+    <rdf:predicate rdf:resource="http://ns.inria.fr/dbpediafr/voc#revPerYear2014"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Kentucky_Cardinal-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#8e94e208-b1cd-4b14-b6fb-f6526ae3c197">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/USS_Edison_(DD-439)-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</rdf:object>
+    <rdf:predicate rdf:resource="http://ns.inria.fr/dbpediafr/voc#revPerYear2015"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/USS_Edison_(DD-439)-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#d06c6b59-0d21-4141-bfce-a70090aae08a">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Montreux_Festival-Statements"/>
+    <rdf:object rdf:resource="http://dbpedia.org/resource/Stax_Records"/>
+    <rdf:predicate rdf:resource="http://dbpedia.org/ontology/recordLabel"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Montreux_Festival"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#19f1ed87-1a36-42b2-a28e-7328b1277e7b">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Eagle_Lion_Films_Inc.-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</rdf:object>
+    <rdf:predicate rdf:resource="http://www.w3.org/2004/03/trix/swp-2/isVersion"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Eagle_Lion_Films_Inc.-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#71625542-f21b-48b6-b2ed-4d9a8897f31a">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Constantia_(typeface)-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-08-25T11:12:54</rdf:object>
+    <rdf:predicate rdf:resource="http://purl.org/dc/element/1.1/modified"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Constantia_(typeface)-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#3dc8574f-7a46-41d1-9291-db68b0a757a5">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Eagle-Lion_Films_Inc.-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2005-07-30T06:38:45</rdf:object>
+    <rdf:predicate rdf:resource="http://purl.org/dc/element/1.1/created"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Eagle-Lion_Films_Inc.-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#c04d11ed-fec6-432e-bd60-3eb04fa54170">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Feline_(The_Stranglers_album)-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</rdf:object>
+    <rdf:predicate rdf:resource="http://ns.inria.fr/dbpediafr/voc#revPerLastMonth2"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Feline_(The_Stranglers_album)-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#35d93c4b-bd39-4ccb-b12e-9a4b94bb8b2e">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Breakin&apos;_(song)-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">31</rdf:object>
+    <rdf:predicate rdf:resource="http://ns.inria.fr/dbpediafr/voc#uniqueContributorNb"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Breakin&apos;_(song)-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#89fb505d-4535-48b8-886d-f85f14b9356b">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Mark_13_torpedo-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</rdf:object>
+    <rdf:predicate rdf:resource="http://ns.inria.fr/dbpediafr/voc#revPerLastMonth1"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Mark_13_torpedo-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#c99f3b8e-2a05-41dc-8ac1-0527a900d77e">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Lineas_Aereas_Federales-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</rdf:object>
+    <rdf:predicate rdf:resource="http://www.w3.org/2004/03/trix/swp-2/isVersion"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Lineas_Aereas_Federales-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#a827a675-87c8-4ab7-89c7-60648e6dc1ef">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Constantia_(typeface)-Statements"/>
+    <rdf:object rdf:resource="http://dbpedia.org/resource/Microsoft"/>
+    <rdf:predicate rdf:resource="http://dbpedia.org/ontology/wikiPageWikiLink"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Constantia_(typeface)"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#a696abd2-6c79-4ddc-881b-4709b64bbd3c">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Feline_(The_Stranglers_album)-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">67</rdf:object>
+    <rdf:predicate rdf:resource="http://ns.inria.fr/dbpediafr/voc#uniqueContributorNb"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Feline_(The_Stranglers_album)-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#6f079560-da8a-4efc-b0e5-6dd3488cb66a">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Iain_Pears-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">79</rdf:object>
+    <rdf:predicate rdf:resource="http://www.w3.org/2004/03/trix/swp-2/isVersion"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Iain_Pears-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#8d4375f4-0e82-4d8f-95cf-fbfe2f76b39c">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Iain_Pears-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-09-29T16:06:23</rdf:object>
+    <rdf:predicate rdf:resource="http://purl.org/dc/element/1.1/modified"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Iain_Pears-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#584b8ec3-0cf1-4616-8470-05ce40c39e43">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Play_Around_the_Christmas_Tree-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</rdf:object>
+    <rdf:predicate rdf:resource="http://ns.inria.fr/dbpediafr/voc#revPerYear2016"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Play_Around_the_Christmas_Tree-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#be54dca2-69d2-41d2-89bf-7cf67422dd4a">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/USS_Edison_(DD-439)-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</rdf:object>
+    <rdf:predicate rdf:resource="http://ns.inria.fr/dbpediafr/voc#revPerLastMonth1"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/USS_Edison_(DD-439)-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#506d542f-cf36-4b9d-b59d-2e93a8fc925e">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Montreux_Festival-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</rdf:object>
+    <rdf:predicate rdf:resource="http://ns.inria.fr/dbpediafr/voc#revPerLastMonth1"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Montreux_Festival-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#30deb773-3047-44e9-ad45-52f7a6c2e4ef">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Montreux_Festival-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2005-07-31T23:00:03</rdf:object>
+    <rdf:predicate rdf:resource="http://purl.org/dc/element/1.1/created"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Montreux_Festival-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#dd40d80d-2f41-4d7a-a826-e2cc3ee15516">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Central_Point_Anti-Virus-Statements"/>
+    <rdf:object rdf:resource="http://dbpedia.org/resource/Symantec"/>
+    <rdf:predicate rdf:resource="http://dbpedia.org/ontology/wikiPageWikiLink"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Central_Point_Anti-Virus"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/USS_Stockton_(DD-646)-Meta-Meta">
+    <j.1:hasSource rdf:resource="http://ns.inria.fr/dbpediafr/resource#DBpediaGermanDataset_16_11_14"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#b137cfea-ed35-4a4e-b874-192d770ed627">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Mark_13_torpedo-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2005-08-02T22:00:51</rdf:object>
+    <rdf:predicate rdf:resource="http://purl.org/dc/element/1.1/created"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Mark_13_torpedo-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#b53bc5c0-d248-4a0b-b45e-2d2a8ea94692">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/1936_Hungarian_Grand_Prix-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</rdf:object>
+    <rdf:predicate rdf:resource="http://ns.inria.fr/dbpediafr/voc#revPerYear2015"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/1936_Hungarian_Grand_Prix-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#a3c84930-9b4b-448a-bbf4-0e87fba07cab">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Nordea_Bank_Finland-Statements"/>
+    <rdf:object rdf:resource="http://dbpedia.org/resource/Nordea"/>
+    <rdf:predicate rdf:resource="http://dbpedia.org/ontology/wikiPageRedirects"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Nordea_Bank_Finland"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#500e1f3e-05eb-4706-9d6c-2fa8ee03fc0a">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Scar_(song)-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-08-30T11:05:03</rdf:object>
+    <rdf:predicate rdf:resource="http://purl.org/dc/element/1.1/modified"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Scar_(song)-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#2cd96e92-1b0b-4f02-a1c6-0906e858f2fb">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/USS_Edison_(DD-439)-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-06-01T13:02:02</rdf:object>
+    <rdf:predicate rdf:resource="http://purl.org/dc/element/1.1/modified"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/USS_Edison_(DD-439)-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#d7d472cf-76a2-4aba-8f0e-268bc4d7c27e">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Feline_(The_Stranglers_album)-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</rdf:object>
+    <rdf:predicate rdf:resource="http://ns.inria.fr/dbpediafr/voc#revPerLastMonth1"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Feline_(The_Stranglers_album)-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#26301b00-af7d-43d3-80af-b2aee343502d">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Ronin_(band)-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</rdf:object>
+    <rdf:predicate rdf:resource="http://ns.inria.fr/dbpediafr/voc#revPerLastMonth2"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Ronin_(band)-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#60e73cdb-b1ec-40a2-9e5f-4558f0c2d57c">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Mark_13_torpedo-Statements"/>
+    <rdf:object rdf:resource="http://dbpedia.org/resource/International_Harvester"/>
+    <rdf:predicate rdf:resource="http://dbpedia.org/property/manufacturer"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Mark_13_torpedo"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#a4a58624-9766-42c5-b902-2dc010c7754f">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Guardic-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">32</rdf:object>
+    <rdf:predicate rdf:resource="http://ns.inria.fr/dbpediafr/voc#uniqueContributorNb"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Guardic-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#d61353d9-5659-48f2-a46a-7dcdc2be77e4">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/USS_Stockton_(DD-646)-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-10-03T01:12:13</rdf:object>
+    <rdf:predicate rdf:resource="http://purl.org/dc/element/1.1/modified"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/USS_Stockton_(DD-646)-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#40db9fe9-00a5-47bc-bda0-b9f75af0cf8d">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Interland_Inc.-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</rdf:object>
+    <rdf:predicate rdf:resource="http://ns.inria.fr/dbpediafr/voc#revPerLastMonth1"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Interland_Inc.-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Guardic-Meta-Meta">
+    <j.1:hasSource rdf:resource="http://ns.inria.fr/dbpediafr/resource#DBpediaGermanDataset_16_11_14"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#de11801b-077b-4a17-8c82-a7e9f4c341bc">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/My_Name_Is_Mud-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-10-08T06:38:46</rdf:object>
+    <rdf:predicate rdf:resource="http://purl.org/dc/element/1.1/modified"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/My_Name_Is_Mud-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#fab99028-0ee8-4112-a3ee-c76dc2f7cddf">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Slime_I-Statements"/>
+    <rdf:object rdf:resource="http://dbpedia.org/resource/Aldi"/>
+    <rdf:predicate rdf:resource="http://dbpedia.org/ontology/wikiPageWikiLink"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Slime_I"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#bbae8e22-8eb0-4867-8842-8f655668e90e">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Black_Coffee_(Peggy_Lee_album)-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35</rdf:object>
+    <rdf:predicate rdf:resource="http://ns.inria.fr/dbpediafr/voc#uniqueContributorNb"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Black_Coffee_(Peggy_Lee_album)-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#ed96f32f-aecf-4959-9850-a73694688911">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Robo_Aleste-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</rdf:object>
+    <rdf:predicate rdf:resource="http://ns.inria.fr/dbpediafr/voc#revPerYear2016"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Robo_Aleste-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#dbd0412f-f7ab-4b03-b11f-20922f98a6cb">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Mix_of_Life-Statements"/>
+    <rdf:object rdf:resource="http://dbpedia.org/resource/Sparrow_Records"/>
+    <rdf:predicate rdf:resource="http://dbpedia.org/property/label"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Mix_of_Life"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#1f8ebdd5-c3d3-42ec-ad67-5bca828eb36d">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Breakin&apos;_(song)-Statements"/>
+    <rdf:object rdf:resource="http://dbpedia.org/resource/Virgin_Records"/>
+    <rdf:predicate rdf:resource="http://dbpedia.org/ontology/recordLabel"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Breakin&apos;_(song)"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#fd154a68-8d48-4187-862e-647af9d468bc">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Aral-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2005-08-02T21:20:04</rdf:object>
+    <rdf:predicate rdf:resource="http://purl.org/dc/element/1.1/created"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Aral-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Nordea_Bank_Finland-Statements">
+    <j.1:hasMainRevision rdf:resource="http://wikipedia.org/wiki/Nordea_Bank_Finland"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#da5c7df2-ad2a-4d3c-82e7-afb0b3fa196e">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Eagle_Lion_Films_Inc.-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</rdf:object>
+    <rdf:predicate rdf:resource="http://ns.inria.fr/dbpediafr/voc#revPerLastMonth1"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Eagle_Lion_Films_Inc.-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#13242218-1009-413b-aeaf-f661a18f48ac">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Peace_and_Love_(The_Pogues_album)-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2005-07-31T18:26:37</rdf:object>
+    <rdf:predicate rdf:resource="http://purl.org/dc/element/1.1/created"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Peace_and_Love_(The_Pogues_album)-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#7ba3d5d6-8ec7-4825-a3be-ba612aa74910">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Breakin&apos;_(song)-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2005-07-31T21:26:21</rdf:object>
+    <rdf:predicate rdf:resource="http://purl.org/dc/element/1.1/created"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Breakin&apos;_(song)-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#cfa6cde2-b90b-4db5-9ebf-fbeb59c5417d">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Dragon&apos;s_Kiss-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</rdf:object>
+    <rdf:predicate rdf:resource="http://ns.inria.fr/dbpediafr/voc#revPerLastMonth1"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Dragon&apos;s_Kiss-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#1e607337-ae55-4f58-bb92-3c8c0cced3af">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Kentucky_Cardinal-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</rdf:object>
+    <rdf:predicate rdf:resource="http://ns.inria.fr/dbpediafr/voc#revPerLastMonth2"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Kentucky_Cardinal-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#20412851-bba9-40d1-89f3-0cd83b8df576">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Play_Around_the_Christmas_Tree-Statements"/>
+    <rdf:object rdf:resource="http://dbpedia.org/resource/Columbia_Records"/>
+    <rdf:predicate rdf:resource="http://dbpedia.org/ontology/recordLabel"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Play_Around_the_Christmas_Tree"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Gift_of_Gab_(film)-Meta-Meta">
+    <j.1:hasSource rdf:resource="http://ns.inria.fr/dbpediafr/resource#DBpediaGermanDataset_16_11_14"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#16b9cd76-8c91-4918-91e3-20501eaea789">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/1936_Hungarian_Grand_Prix-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</rdf:object>
+    <rdf:predicate rdf:resource="http://ns.inria.fr/dbpediafr/voc#revPerYear2016"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/1936_Hungarian_Grand_Prix-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#2d67eb0c-5105-4d41-a9ea-33319d32a345">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/The_Calling_(Hilltop_Hoods_album)-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</rdf:object>
+    <rdf:predicate rdf:resource="http://ns.inria.fr/dbpediafr/voc#revPerLastMonth1"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/The_Calling_(Hilltop_Hoods_album)-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#bd5c7d45-91db-43f0-8ba7-2c86c60e3410">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Robo_Aleste-Statements"/>
+    <rdf:object rdf:resource="http://dbpedia.org/resource/Tengen_(company)"/>
+    <rdf:predicate rdf:resource="http://dbpedia.org/ontology/distributor"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Robo_Aleste"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#a8f8b668-d6ed-48ef-8831-8f4e2792e693">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Nordea_Bank_Finland-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2005-08-02T17:37:19</rdf:object>
+    <rdf:predicate rdf:resource="http://purl.org/dc/element/1.1/modified"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Nordea_Bank_Finland-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#a6843ae1-6ac3-4eef-bf38-8a6892737631">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Walk_the_Dog_and_Light_the_Light-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</rdf:object>
+    <rdf:predicate rdf:resource="http://ns.inria.fr/dbpediafr/voc#revPerYear2016"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Walk_the_Dog_and_Light_the_Light-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#37e9fc6d-b744-40de-b760-dcbf7ece07a5">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Constantia_(typeface)-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</rdf:object>
+    <rdf:predicate rdf:resource="http://ns.inria.fr/dbpediafr/voc#revPerYear2016"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Constantia_(typeface)-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#7927905e-61ce-4b83-8596-f01238f9fd7b">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Interland_Inc.-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19</rdf:object>
+    <rdf:predicate rdf:resource="http://www.w3.org/2004/03/trix/swp-2/isVersion"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Interland_Inc.-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#407d45be-f048-420c-ba70-c8b8e21780d8">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Iain_Pears-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</rdf:object>
+    <rdf:predicate rdf:resource="http://ns.inria.fr/dbpediafr/voc#revPerYear2016"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Iain_Pears-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/String_Quartet_No._10_(Beethoven)-Meta-Meta">
+    <j.1:hasSource rdf:resource="http://ns.inria.fr/dbpediafr/resource#DBpediaGermanDataset_16_11_14"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Mark_13_torpedo-Meta-Meta">
+    <j.1:hasSource rdf:resource="http://ns.inria.fr/dbpediafr/resource#DBpediaGermanDataset_16_11_14"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#9b51856a-c399-4301-97c0-dfc81242982d">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Eagle_Lion_Films_Inc.-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</rdf:object>
+    <rdf:predicate rdf:resource="http://ns.inria.fr/dbpediafr/voc#revPerYear2005"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Eagle_Lion_Films_Inc.-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#7c14ea80-33c1-4bc5-bbbb-c040e2d09751">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Aral-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">40</rdf:object>
+    <rdf:predicate rdf:resource="http://www.w3.org/2004/03/trix/swp-2/isVersion"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Aral-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#e9db93f2-6f88-4a7f-8578-164a3d0fb228">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Slime_I-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2005-08-02T15:02:45</rdf:object>
+    <rdf:predicate rdf:resource="http://purl.org/dc/element/1.1/created"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Slime_I-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#05904014-7433-4271-8b9e-6759cc879532">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Gift_of_Gab_(film)-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</rdf:object>
+    <rdf:predicate rdf:resource="http://ns.inria.fr/dbpediafr/voc#revPerYear2016"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Gift_of_Gab_(film)-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Eagle-Lion_Films_Inc.-Statements">
+    <j.1:hasOldRevision rdf:resource="https://wikipedia.org/w/index.php?title=Eagle-Lion_Films_Inc.&amp;oldid=19905722"/>
+    <j.1:hasMainRevision rdf:resource="http://wikipedia.org/wiki/Eagle-Lion_Films_Inc."/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#996a3cd7-1f99-4446-bd56-2c963d1089f8">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Peace_and_Love_(The_Pogues_album)-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-09-01T15:38:46</rdf:object>
+    <rdf:predicate rdf:resource="http://purl.org/dc/element/1.1/modified"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Peace_and_Love_(The_Pogues_album)-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#c5672e51-11ce-428e-b80a-9f1b855be70e">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Lineas_Aereas_Federales-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</rdf:object>
+    <rdf:predicate rdf:resource="http://ns.inria.fr/dbpediafr/voc#revPerLastMonth2"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Lineas_Aereas_Federales-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#005b6f37-e313-48c6-a6aa-8f3d668dfffd">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/My_Name_Is_Mud-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2005-07-30T00:26:55</rdf:object>
+    <rdf:predicate rdf:resource="http://purl.org/dc/element/1.1/created"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/My_Name_Is_Mud-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#dd96705e-3949-426c-abd6-767d2c66b692">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Aral-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">32</rdf:object>
+    <rdf:predicate rdf:resource="http://ns.inria.fr/dbpediafr/voc#uniqueContributorNb"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Aral-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/The_Calling_(Hilltop_Hoods_album)-Meta-Meta">
+    <j.1:hasSource rdf:resource="http://ns.inria.fr/dbpediafr/resource#DBpediaGermanDataset_16_11_14"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#3db846ce-eab8-4f00-a8a8-83ec1a04ea7d">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Black_Coffee_(Peggy_Lee_album)-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</rdf:object>
+    <rdf:predicate rdf:resource="http://ns.inria.fr/dbpediafr/voc#revPerLastMonth1"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Black_Coffee_(Peggy_Lee_album)-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#2d689fa2-a492-4be3-b3d3-1cd6f053b6c5">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Eagle-Lion_Films_Inc.-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</rdf:object>
+    <rdf:predicate rdf:resource="http://ns.inria.fr/dbpediafr/voc#uniqueContributorNb"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Eagle-Lion_Films_Inc.-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#a1b7a1cf-1681-4447-8d02-769f15dbe388">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Eagle_Lion_Films_Inc.-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2005-07-30T06:39:42</rdf:object>
+    <rdf:predicate rdf:resource="http://purl.org/dc/element/1.1/created"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Eagle_Lion_Films_Inc.-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#7e7f123e-a8c4-4240-b52d-54097c7ff317">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/It&apos;s_a_Great_Feeling-Statements"/>
+    <rdf:object rdf:resource="http://dbpedia.org/resource/Warner_Bros."/>
+    <rdf:predicate rdf:resource="http://dbpedia.org/property/distributor"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/It&apos;s_a_Great_Feeling"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#4fef84e0-1ef1-4454-9fa3-aee158ad0017">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/USS_Edison_(DD-439)-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2005-08-02T14:27:19</rdf:object>
+    <rdf:predicate rdf:resource="http://purl.org/dc/element/1.1/created"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/USS_Edison_(DD-439)-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#0c6ebb48-18f0-4d72-8ad1-ccb666ae60ec">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Peace_and_Love_(The_Pogues_album)-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">99</rdf:object>
+    <rdf:predicate rdf:resource="http://www.w3.org/2004/03/trix/swp-2/isVersion"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Peace_and_Love_(The_Pogues_album)-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#09e6838b-a649-4d38-8f40-5c0b021745a5">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Feline_(The_Stranglers_album)-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</rdf:object>
+    <rdf:predicate rdf:resource="http://ns.inria.fr/dbpediafr/voc#revPerYear2016"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Feline_(The_Stranglers_album)-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#46f3908e-1019-40cf-88ef-9c63054f56c6">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Lineas_Aereas_Federales-Statements"/>
+    <rdf:object rdf:resource="http://dbpedia.org/resource/Líneas_Aéreas_Federales"/>
+    <rdf:predicate rdf:resource="http://dbpedia.org/ontology/wikiPageRedirects"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Lineas_Aereas_Federales"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#42dbcdd0-6d26-4e93-a6c9-b0e0b46a2e52">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Iain_Pears-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</rdf:object>
+    <rdf:predicate rdf:resource="http://ns.inria.fr/dbpediafr/voc#revPerLastMonth1"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Iain_Pears-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#a92b64c3-db3f-4d9a-8719-d4c918d435e8">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Peace_and_Love_(The_Pogues_album)-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">74</rdf:object>
+    <rdf:predicate rdf:resource="http://ns.inria.fr/dbpediafr/voc#uniqueContributorNb"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Peace_and_Love_(The_Pogues_album)-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#ea3ccf44-9568-4d92-99c0-5e72923df900">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Mix_of_Life-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</rdf:object>
+    <rdf:predicate rdf:resource="http://ns.inria.fr/dbpediafr/voc#revPerLastMonth1"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Mix_of_Life-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#d0dc1317-fff2-4d0c-b406-2d6aa600fa11">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Semi_Joseph_Begun-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">58</rdf:object>
+    <rdf:predicate rdf:resource="http://ns.inria.fr/dbpediafr/voc#uniqueContributorNb"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Semi_Joseph_Begun-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#135981f5-146f-45b8-96e8-2dead951f945">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Central_Point_Anti-Virus-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</rdf:object>
+    <rdf:predicate rdf:resource="http://ns.inria.fr/dbpediafr/voc#revPerLastMonth1"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Central_Point_Anti-Virus-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#0b337678-6bb3-4049-871b-3fb04a157e9f">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Aral-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-08-16T15:46:44</rdf:object>
+    <rdf:predicate rdf:resource="http://purl.org/dc/element/1.1/modified"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Aral-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#30e64078-3ea7-4179-8178-73c25ff6ffc3">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/String_Quartet_No._10_(Beethoven)-Statements"/>
+    <rdf:object rdf:resource="http://dbpedia.org/resource/Breitkopf_&amp;_Härtel"/>
+    <rdf:predicate rdf:resource="http://dbpedia.org/ontology/wikiPageWikiLink"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/String_Quartet_No._10_(Beethoven)"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#8aa44699-7d14-423f-a41b-baebf049db79">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Peace_and_Love_(The_Pogues_album)-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</rdf:object>
+    <rdf:predicate rdf:resource="http://ns.inria.fr/dbpediafr/voc#revPerYear2016"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Peace_and_Love_(The_Pogues_album)-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#edff0e7f-7343-480b-9fc4-a536a23b6a8a">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Play_Around_the_Christmas_Tree-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-10-12T08:17:01</rdf:object>
+    <rdf:predicate rdf:resource="http://purl.org/dc/element/1.1/modified"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Play_Around_the_Christmas_Tree-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Lineas_Aereas_Federales-Meta-Meta">
+    <j.1:hasSource rdf:resource="http://ns.inria.fr/dbpediafr/resource#DBpediaGermanDataset_16_11_14"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#8a20fab7-83f8-4bf9-8ef5-dc593b26bc11">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Scar_(song)-Statements"/>
+    <rdf:object rdf:resource="http://dbpedia.org/resource/Eleven:_A_Music_Company"/>
+    <rdf:predicate rdf:resource="http://dbpedia.org/ontology/recordLabel"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Scar_(song)"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#aeb9d489-8184-4b7b-ac6e-8b8d40e7f57f">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Breakin&apos;_(song)-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</rdf:object>
+    <rdf:predicate rdf:resource="http://ns.inria.fr/dbpediafr/voc#revPerYear2014"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Breakin&apos;_(song)-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#d9647085-22ba-4434-b889-4539ffb20330">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/USS_Stockton_(DD-646)-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</rdf:object>
+    <rdf:predicate rdf:resource="http://ns.inria.fr/dbpediafr/voc#revPerYear2015"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/USS_Stockton_(DD-646)-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#9f53a412-3e3c-41bd-b625-5d28e650aba2">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Dragon&apos;s_Kiss-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</rdf:object>
+    <rdf:predicate rdf:resource="http://ns.inria.fr/dbpediafr/voc#revPerYear2015"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Dragon&apos;s_Kiss-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#b7ca7d61-7334-43ca-8af8-b1e27165925e">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Walk_the_Dog_and_Light_the_Light-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</rdf:object>
+    <rdf:predicate rdf:resource="http://ns.inria.fr/dbpediafr/voc#revPerYear2014"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Walk_the_Dog_and_Light_the_Light-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#4fc6de9c-bd39-4f82-962c-5527236b55de">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/1936_Hungarian_Grand_Prix-Statements"/>
+    <rdf:object rdf:resource="http://dbpedia.org/resource/Auto_Union"/>
+    <rdf:predicate rdf:resource="http://dbpedia.org/property/thirdTeam"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/1936_Hungarian_Grand_Prix"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#4450bd7e-0f7e-4306-b758-2756318aa3ae">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Montreux_Festival-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</rdf:object>
+    <rdf:predicate rdf:resource="http://ns.inria.fr/dbpediafr/voc#revPerYear2012"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Montreux_Festival-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#2621acb8-72d3-4b50-b02f-355b94a545ab">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Gift_of_Gab_(film)-Statements"/>
+    <rdf:object rdf:resource="http://dbpedia.org/resource/Universal_Studios"/>
+    <rdf:predicate rdf:resource="http://dbpedia.org/ontology/distributor"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Gift_of_Gab_(film)"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#2006a600-0182-46ea-b18f-d2f8de28cbb4">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Central_Point_Anti-Virus-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</rdf:object>
+    <rdf:predicate rdf:resource="http://ns.inria.fr/dbpediafr/voc#revPerLastMonth2"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Central_Point_Anti-Virus-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Walk_the_Dog_and_Light_the_Light-Meta-Meta">
+    <j.1:hasSource rdf:resource="http://ns.inria.fr/dbpediafr/resource#DBpediaGermanDataset_16_11_14"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#8d9cfd2d-d244-49cd-8216-e5e9c86b0791">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Interland_Inc.-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</rdf:object>
+    <rdf:predicate rdf:resource="http://ns.inria.fr/dbpediafr/voc#uniqueContributorNb"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Interland_Inc.-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#337d66d6-1dff-4cc3-a19d-a2142e500d18">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Walk_the_Dog_and_Light_the_Light-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2005-07-31T10:51:02</rdf:object>
+    <rdf:predicate rdf:resource="http://purl.org/dc/element/1.1/created"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Walk_the_Dog_and_Light_the_Light-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#c07d090c-fc8e-49e4-ac5b-8f7131a62b65">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/String_Quartet_No._10_(Beethoven)-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">84</rdf:object>
+    <rdf:predicate rdf:resource="http://www.w3.org/2004/03/trix/swp-2/isVersion"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/String_Quartet_No._10_(Beethoven)-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#0ac6c633-fff2-4356-a6ff-d18eaa642693">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Ronin_(band)-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</rdf:object>
+    <rdf:predicate rdf:resource="http://ns.inria.fr/dbpediafr/voc#revPerLastMonth1"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Ronin_(band)-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#1e322fa1-1126-4ead-b9f1-b24c716f26d1">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/It&apos;s_a_Great_Feeling-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</rdf:object>
+    <rdf:predicate rdf:resource="http://ns.inria.fr/dbpediafr/voc#revPerYear2015"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/It&apos;s_a_Great_Feeling-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#3cf379e0-b13d-40c8-9d78-aa0a73065235">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Semi_Joseph_Begun-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2005-07-30T15:32:53</rdf:object>
+    <rdf:predicate rdf:resource="http://purl.org/dc/element/1.1/created"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Semi_Joseph_Begun-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#d484377b-a7aa-4d59-8002-e44f16c7acca">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Semi_Joseph_Begun-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</rdf:object>
+    <rdf:predicate rdf:resource="http://ns.inria.fr/dbpediafr/voc#revPerYear2015"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Semi_Joseph_Begun-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#170c47c4-12f8-4925-88cc-dad6c10f1bf7">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Mix_of_Life-Statements"/>
+    <rdf:object rdf:resource="http://dbpedia.org/resource/Sparrow_Records"/>
+    <rdf:predicate rdf:resource="http://dbpedia.org/ontology/recordLabel"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Mix_of_Life"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#f52b85ca-d645-44f0-9e55-ba18a056393c">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Feline_(The_Stranglers_album)-Statements"/>
+    <rdf:object rdf:resource="http://dbpedia.org/resource/Epic_Records"/>
+    <rdf:predicate rdf:resource="http://dbpedia.org/property/label"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Feline_(The_Stranglers_album)"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#ab1db09d-6b49-46cc-baf1-43293ade26e5">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Robo_Aleste-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rdf:object>
+    <rdf:predicate rdf:resource="http://ns.inria.fr/dbpediafr/voc#revPerYear2015"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Robo_Aleste-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#5d997f7b-d358-46ad-9c8f-3169a40ff221">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Interland_Inc.-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-07-22T18:50:07</rdf:object>
+    <rdf:predicate rdf:resource="http://purl.org/dc/element/1.1/modified"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Interland_Inc.-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#1e7b7e56-2493-49a4-94c4-3112513331b7">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Dragon&apos;s_Kiss-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-05-31T18:14:19</rdf:object>
+    <rdf:predicate rdf:resource="http://purl.org/dc/element/1.1/modified"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Dragon&apos;s_Kiss-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#adb8beb6-6a9f-4fc4-be82-4900270ec837">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Nordea_Bank_Finland-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</rdf:object>
+    <rdf:predicate rdf:resource="http://www.w3.org/2004/03/trix/swp-2/isVersion"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Nordea_Bank_Finland-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/My_Name_Is_Mud-Meta-Meta">
+    <j.1:hasSource rdf:resource="http://ns.inria.fr/dbpediafr/resource#DBpediaGermanDataset_16_11_14"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#60ccfb36-2675-4e50-8be7-d193ddc9ff3a">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/1936_Hungarian_Grand_Prix-Statements"/>
+    <rdf:object rdf:resource="http://dbpedia.org/resource/Auto_Union"/>
+    <rdf:predicate rdf:resource="http://dbpedia.org/property/secondTeam"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/1936_Hungarian_Grand_Prix"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/It&apos;s_a_Great_Feeling-Meta-Meta">
+    <j.1:hasSource rdf:resource="http://ns.inria.fr/dbpediafr/resource#DBpediaGermanDataset_16_11_14"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#7675fd7a-de34-4ceb-8c28-cf4c5725390f">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Iain_Pears-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</rdf:object>
+    <rdf:predicate rdf:resource="http://ns.inria.fr/dbpediafr/voc#revPerYear2015"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Iain_Pears-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#b21100e4-fbee-4f46-9aa9-fe1bc907c5a4">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/USS_Stockton_(DD-646)-Statements"/>
+    <rdf:object rdf:resource="http://dbpedia.org/resource/Federal_Shipbuilding_and_Drydock_Company"/>
+    <rdf:predicate rdf:resource="http://dbpedia.org/ontology/builder"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/USS_Stockton_(DD-646)"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#6a0bc780-a634-4d39-af2b-846f04365ac0">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Kentucky_Cardinal-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">45</rdf:object>
+    <rdf:predicate rdf:resource="http://www.w3.org/2004/03/trix/swp-2/isVersion"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Kentucky_Cardinal-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+
+
+
+    <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#e9db93f2-6f88-4a7f-8578-164a3d0fb228">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Slime_I-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-08-02T15:02:45</rdf:object>
+    <rdf:predicate rdf:resource="http://purl.org/dc/element/1.1/created"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Slime_I-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#05904014-7433-4271-8b9e-6759cc879532">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Gift_of_Gab_(film)-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rdf:object>
+    <rdf:predicate rdf:resource="http://ns.inria.fr/dbpediafr/voc#revPerYear2016"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Gift_of_Gab_(film)-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Eagle-Lion_Films_Inc.-Statements">
+    <j.1:hasOldRevision rdf:resource="https://wikipedia.org/w/index.php?title=Eagle-Lion_Films_Inc.&amp;oldid=19905722"/>
+    <j.1:hasMainRevision rdf:resource="http://wikipedia.org/wiki/Eagle-Lion_Films_Inc."/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#996a3cd7-1f99-4446-bd56-2c963d1089f8">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Peace_and_Love_(The_Pogues_album)-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-09-01T15:38:46</rdf:object>
+    <rdf:predicate rdf:resource="http://purl.org/dc/element/1.1/modified"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Peace_and_Love_(The_Pogues_album)-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#c5672e51-11ce-428e-b80a-9f1b855be70e">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Lineas_Aereas_Federales-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</rdf:object>
+    <rdf:predicate rdf:resource="http://ns.inria.fr/dbpediafr/voc#revPerLastMonth2"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Lineas_Aereas_Federales-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#005b6f37-e313-48c6-a6aa-8f3d668dfffd">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/My_Name_Is_Mud-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2005-08-30T00:26:55</rdf:object>
+    <rdf:predicate rdf:resource="http://purl.org/dc/element/1.1/created"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/My_Name_Is_Mud-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#dd96705e-3949-426c-abd6-767d2c66b692">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Aral-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">42</rdf:object>
+    <rdf:predicate rdf:resource="http://ns.inria.fr/dbpediafr/voc#uniqueContributorNb"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Aral-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/The_Calling_(Hilltop_Hoods_album)-Meta-Meta">
+    <j.1:hasSource rdf:resource="http://ns.inria.fr/dbpediafr/resource#DBpediaGermanDataset_16_11_14"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#3db846ce-eab8-4f00-a8a8-83ec1a04ea7d">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Black_Coffee_(Peggy_Lee_album)-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rdf:object>
+    <rdf:predicate rdf:resource="http://ns.inria.fr/dbpediafr/voc#revPerLastMonth1"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Black_Coffee_(Peggy_Lee_album)-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#2d689fa2-a492-4be3-b3d3-1cd6f053b6c5">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Eagle-Lion_Films_Inc.-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</rdf:object>
+    <rdf:predicate rdf:resource="http://ns.inria.fr/dbpediafr/voc#uniqueContributorNb"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Eagle-Lion_Films_Inc.-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#a1b7a1cf-1681-4447-8d02-769f15dbe388">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Eagle_Lion_Films_Inc.-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-07-30T06:39:42</rdf:object>
+    <rdf:predicate rdf:resource="http://purl.org/dc/element/1.1/created"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Eagle_Lion_Films_Inc.-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#7e7f123e-a8c4-4240-b52d-54097c7ff317">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/It&apos;s_a_Great_Feeling-Statements"/>
+    <rdf:object rdf:resource="http://dbpedia.org/resource/Warner_Bros."/>
+    <rdf:predicate rdf:resource="http://dbpedia.org/property/distributor"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/It&apos;s_a_Great_Feeling"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#4fef84e0-1ef1-4454-9fa3-aee158ad0017">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/USS_Edison_(DD-439)-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-08-02T14:27:19</rdf:object>
+    <rdf:predicate rdf:resource="http://purl.org/dc/element/1.1/created"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/USS_Edison_(DD-439)-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#0c6ebb48-18f0-4d72-8ad1-ccb666ae60ec">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Peace_and_Love_(The_Pogues_album)-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">89</rdf:object>
+    <rdf:predicate rdf:resource="http://www.w3.org/2004/03/trix/swp-2/isVersion"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Peace_and_Love_(The_Pogues_album)-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#09e6838b-a649-4d38-8f40-5c0b021745a5">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Feline_(The_Stranglers_album)-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rdf:object>
+    <rdf:predicate rdf:resource="http://ns.inria.fr/dbpediafr/voc#revPerYear2016"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Feline_(The_Stranglers_album)-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#46f3908e-1019-40cf-88ef-9c63054f56c6">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Lineas_Aereas_Federales-Statements"/>
+    <rdf:object rdf:resource="http://dbpedia.org/resource/Líneas_Aéreas_Federales"/>
+    <rdf:predicate rdf:resource="http://dbpedia.org/ontology/wikiPageRedirects"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Lineas_Aereas_Federales"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#42dbcdd0-6d26-4e93-a6c9-b0e0b46a2e52">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Iain_Pears-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</rdf:object>
+    <rdf:predicate rdf:resource="http://ns.inria.fr/dbpediafr/voc#revPerLastMonth1"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Iain_Pears-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#a92b64c3-db3f-4d9a-8719-d4c918d435e8">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Peace_and_Love_(The_Pogues_album)-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">94</rdf:object>
+    <rdf:predicate rdf:resource="http://ns.inria.fr/dbpediafr/voc#uniqueContributorNb"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Peace_and_Love_(The_Pogues_album)-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#ea3ccf44-9568-4d92-99c0-5e72923df900">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Mix_of_Life-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</rdf:object>
+    <rdf:predicate rdf:resource="http://ns.inria.fr/dbpediafr/voc#revPerLastMonth1"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Mix_of_Life-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#d0dc1317-fff2-4d0c-b406-2d6aa600fa11">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Semi_Joseph_Begun-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">88</rdf:object>
+    <rdf:predicate rdf:resource="http://ns.inria.fr/dbpediafr/voc#uniqueContributorNb"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Semi_Joseph_Begun-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#135981f5-146f-45b8-96e8-2dead951f945">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Central_Point_Anti-Virus-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</rdf:object>
+    <rdf:predicate rdf:resource="http://ns.inria.fr/dbpediafr/voc#revPerLastMonth1"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Central_Point_Anti-Virus-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#0b337678-6bb3-4049-871b-3fb04a157e9f">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Aral-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-08-16T15:46:44</rdf:object>
+    <rdf:predicate rdf:resource="http://purl.org/dc/element/1.1/modified"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Aral-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#30e64078-3ea7-4179-8178-73c25ff6ffc3">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/String_Quartet_No._10_(Beethoven)-Statements"/>
+    <rdf:object rdf:resource="http://dbpedia.org/resource/Breitkopf_&amp;_Härtel"/>
+    <rdf:predicate rdf:resource="http://dbpedia.org/ontology/wikiPageWikiLink"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/String_Quartet_No._10_(Beethoven)"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#8aa44699-7d14-423f-a41b-baebf049db79">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Peace_and_Love_(The_Pogues_album)-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</rdf:object>
+    <rdf:predicate rdf:resource="http://ns.inria.fr/dbpediafr/voc#revPerYear2016"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Peace_and_Love_(The_Pogues_album)-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#edff0e7f-7343-480b-9fc4-a536a23b6a8a">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Play_Around_the_Christmas_Tree-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-12T08:17:01</rdf:object>
+    <rdf:predicate rdf:resource="http://purl.org/dc/element/1.1/modified"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Play_Around_the_Christmas_Tree-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Lineas_Aereas_Federales-Meta-Meta">
+    <j.1:hasSource rdf:resource="http://ns.inria.fr/dbpediafr/resource#DBpediaGermanDataset_16_11_14"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#8a20fab7-83f8-4bf9-8ef5-dc593b26bc11">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Scar_(song)-Statements"/>
+    <rdf:object rdf:resource="http://dbpedia.org/resource/Eleven:_A_Music_Company"/>
+    <rdf:predicate rdf:resource="http://dbpedia.org/ontology/recordLabel"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Scar_(song)"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#aeb9d489-8184-4b7b-ac6e-8b8d40e7f57f">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Breakin&apos;_(song)-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</rdf:object>
+    <rdf:predicate rdf:resource="http://ns.inria.fr/dbpediafr/voc#revPerYear2014"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Breakin&apos;_(song)-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#d9647085-22ba-4434-b889-4539ffb20330">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/USS_Stockton_(DD-646)-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</rdf:object>
+    <rdf:predicate rdf:resource="http://ns.inria.fr/dbpediafr/voc#revPerYear2015"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/USS_Stockton_(DD-646)-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#9f53a412-3e3c-41bd-b625-5d28e650aba2">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Dragon&apos;s_Kiss-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</rdf:object>
+    <rdf:predicate rdf:resource="http://ns.inria.fr/dbpediafr/voc#revPerYear2015"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Dragon&apos;s_Kiss-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#b7ca7d61-7334-43ca-8af8-b1e27165925e">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Walk_the_Dog_and_Light_the_Light-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</rdf:object>
+    <rdf:predicate rdf:resource="http://ns.inria.fr/dbpediafr/voc#revPerYear2014"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Walk_the_Dog_and_Light_the_Light-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#4fc6de9c-bd39-4f82-962c-5527236b55de">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/1936_Hungarian_Grand_Prix-Statements"/>
+    <rdf:object rdf:resource="http://dbpedia.org/resource/Auto_Union"/>
+    <rdf:predicate rdf:resource="http://dbpedia.org/property/thirdTeam"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/1936_Hungarian_Grand_Prix"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#4450bd7e-0f7e-4306-b758-2756318aa3ae">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Montreux_Festival-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</rdf:object>
+    <rdf:predicate rdf:resource="http://ns.inria.fr/dbpediafr/voc#revPerYear2012"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Montreux_Festival-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#2621acb8-72d3-4b50-b02f-355b94a545ab">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Gift_of_Gab_(film)-Statements"/>
+    <rdf:object rdf:resource="http://dbpedia.org/resource/Universal_Studios"/>
+    <rdf:predicate rdf:resource="http://dbpedia.org/ontology/distributor"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Gift_of_Gab_(film)"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#2006a600-0182-46ea-b18f-d2f8de28cbb4">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Central_Point_Anti-Virus-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</rdf:object>
+    <rdf:predicate rdf:resource="http://ns.inria.fr/dbpediafr/voc#revPerLastMonth2"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Central_Point_Anti-Virus-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Walk_the_Dog_and_Light_the_Light-Meta-Meta">
+    <j.1:hasSource rdf:resource="http://ns.inria.fr/dbpediafr/resource#DBpediaGermanDataset_16_11_14"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#8d9cfd2d-d244-49cd-8216-e5e9c86b0791">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Interland_Inc.-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</rdf:object>
+    <rdf:predicate rdf:resource="http://ns.inria.fr/dbpediafr/voc#uniqueContributorNb"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Interland_Inc.-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#337d66d6-1dff-4cc3-a19d-a2142e500d18">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Walk_the_Dog_and_Light_the_Light-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-07-31T10:51:02</rdf:object>
+    <rdf:predicate rdf:resource="http://purl.org/dc/element/1.1/created"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Walk_the_Dog_and_Light_the_Light-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#c07d090c-fc8e-49e4-ac5b-8f7131a62b65">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/String_Quartet_No._10_(Beethoven)-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85</rdf:object>
+    <rdf:predicate rdf:resource="http://www.w3.org/2004/03/trix/swp-2/isVersion"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/String_Quartet_No._10_(Beethoven)-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#0ac6c633-fff2-4356-a6ff-d18eaa642693">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Ronin_(band)-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</rdf:object>
+    <rdf:predicate rdf:resource="http://ns.inria.fr/dbpediafr/voc#revPerLastMonth1"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Ronin_(band)-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#1e322fa1-1126-4ead-b9f1-b24c716f26d1">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/It&apos;s_a_Great_Feeling-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</rdf:object>
+    <rdf:predicate rdf:resource="http://ns.inria.fr/dbpediafr/voc#revPerYear2015"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/It&apos;s_a_Great_Feeling-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#3cf379e0-b13d-40c8-9d78-aa0a73065235">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Semi_Joseph_Begun-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2004-07-30T15:32:53</rdf:object>
+    <rdf:predicate rdf:resource="http://purl.org/dc/element/1.1/created"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Semi_Joseph_Begun-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#d484377b-a7aa-4d59-8002-e44f16c7acca">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Semi_Joseph_Begun-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</rdf:object>
+    <rdf:predicate rdf:resource="http://ns.inria.fr/dbpediafr/voc#revPerYear2015"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Semi_Joseph_Begun-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#170c47c4-12f8-4925-88cc-dad6c10f1bf7">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Mix_of_Life-Statements"/>
+    <rdf:object rdf:resource="http://dbpedia.org/resource/Sparrow_Records"/>
+    <rdf:predicate rdf:resource="http://dbpedia.org/ontology/recordLabel"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Mix_of_Life"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#f52b85ca-d645-44f0-9e55-ba18a056393c">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Feline_(The_Stranglers_album)-Statements"/>
+    <rdf:object rdf:resource="http://dbpedia.org/resource/Epic_Records"/>
+    <rdf:predicate rdf:resource="http://dbpedia.org/property/label"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Feline_(The_Stranglers_album)"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#ab1db09d-6b49-46cc-baf1-43293ade26e5">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Robo_Aleste-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</rdf:object>
+    <rdf:predicate rdf:resource="http://ns.inria.fr/dbpediafr/voc#revPerYear2015"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Robo_Aleste-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#5d997f7b-d358-46ad-9c8f-3169a40ff221">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Interland_Inc.-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2004-07-22T18:50:07</rdf:object>
+    <rdf:predicate rdf:resource="http://purl.org/dc/element/1.1/modified"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Interland_Inc.-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#1e7b7e56-2493-49a4-94c4-3112513331b7">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Dragon&apos;s_Kiss-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-05-31T18:14:19</rdf:object>
+    <rdf:predicate rdf:resource="http://purl.org/dc/element/1.1/modified"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Dragon&apos;s_Kiss-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#adb8beb6-6a9f-4fc4-be82-4900270ec837">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Nordea_Bank_Finland-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</rdf:object>
+    <rdf:predicate rdf:resource="http://www.w3.org/2004/03/trix/swp-2/isVersion"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Nordea_Bank_Finland-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/My_Name_Is_Mud-Meta-Meta">
+    <j.1:hasSource rdf:resource="http://ns.inria.fr/dbpediafr/resource#DBpediaGermanDataset_16_11_14"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#60ccfb36-2675-4e50-8be7-d193ddc9ff3a">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/1936_Hungarian_Grand_Prix-Statements"/>
+    <rdf:object rdf:resource="http://dbpedia.org/resource/Auto_Union"/>
+    <rdf:predicate rdf:resource="http://dbpedia.org/property/secondTeam"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/1936_Hungarian_Grand_Prix"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/It&apos;s_a_Great_Feeling-Meta-Meta">
+    <j.1:hasSource rdf:resource="http://ns.inria.fr/dbpediafr/resource#DBpediaGermanDataset_16_11_14"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#7675fd7a-de34-4ceb-8c28-cf4c5725390f">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Iain_Pears-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</rdf:object>
+    <rdf:predicate rdf:resource="http://ns.inria.fr/dbpediafr/voc#revPerYear2015"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Iain_Pears-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#b21100e4-fbee-4f46-9aa9-fe1bc907c5a4">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/USS_Stockton_(DD-646)-Statements"/>
+    <rdf:object rdf:resource="http://dbpedia.org/resource/Federal_Shipbuilding_and_Drydock_Company"/>
+    <rdf:predicate rdf:resource="http://dbpedia.org/ontology/builder"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/USS_Stockton_(DD-646)"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sdw.aksw.org/metardf/StatementID#6a0bc780-a634-4d39-af2b-846f04365ac0">
+    <j.0:hasSharedMeta rdf:resource="http://dbpedia.org/resource/Kentucky_Cardinal-Meta-Meta"/>
+    <rdf:object rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</rdf:object>
+    <rdf:predicate rdf:resource="http://www.w3.org/2004/03/trix/swp-2/isVersion"/>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Kentucky_Cardinal-Statements"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+
+</rdf:RDF>
