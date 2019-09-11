@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry kind="src" path="src/main/resources"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.fx.ide.jdt.core.JAVAFX_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/houria/Desktop/Exploitation des méta-données du linked Open Data dans les systèmes BI/2. Conception/Bib/antlr4-runtime-4.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/houria/Desktop/Exploitation des méta-données du linked Open Data dans les systèmes BI/2. Conception/Bib/apache-jena-3.9.0.zip"/>
+	<classpathentry kind="lib" path="C:/Users/houria/Desktop/Exploitation des méta-données du linked Open Data dans les systèmes BI/2. Conception/Bib/apache-jena-fuseki-3.9.0.zip"/>
+	<classpathentry kind="lib" path="C:/Users/houria/Desktop/Exploitation des méta-données du linked Open Data dans les systèmes BI/2. Conception/Bib/collection-0.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/houria/Desktop/Exploitation des méta-données du linked Open Data dans les systèmes BI/2. Conception/Bib/commons-cli-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/houria/Desktop/Exploitation des méta-données du linked Open Data dans les systèmes BI/2. Conception/Bib/commons-codec-1.9.jar"/>
+	<classpathentry kind="lib" path="C:/Users/houria/Desktop/Exploitation des méta-données du linked Open Data dans les systèmes BI/2. Conception/Bib/commons-codec-1.10.jar"/>
+	<classpathentry kind="lib" path="C:/Users/houria/Desktop/Exploitation des méta-données du linked Open Data dans les systèmes BI/2. Conception/Bib/commons-csv-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/houria/Desktop/Exploitation des méta-données du linked Open Data dans les systèmes BI/2. Conception/Bib/commons-io-2.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/houria/Desktop/Exploitation des méta-données du linked Open Data dans les systèmes BI/2. Conception/Bib/commons-lang3-3.3.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/houria/Desktop/Exploitation des méta-données du linked Open Data dans les systèmes BI/2. Conception/Bib/commons-lang3-3.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/houria/Desktop/Exploitation des méta-données du linked Open Data dans les systèmes BI/2. Conception/Bib/commons-lang3-3.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/houria/Desktop/Exploitation des méta-données du linked Open Data dans les systèmes BI/2. Conception/Bib/fuseki-server.jar"/>
+	<classpathentry kind="lib" path="C:/Users/houria/Desktop/Exploitation des méta-données du linked Open Data dans les systèmes BI/2. Conception/Bib/hamcrest-core-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/houria/Desktop/Exploitation des méta-données du linked Open Data dans les systèmes BI/2. Conception/Bib/httpclient-4.2.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/houria/Desktop/Exploitation des méta-données du linked Open Data dans les systèmes BI/2. Conception/Bib/httpclient-4.5.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/houria/Desktop/Exploitation des méta-données du linked Open Data dans les systèmes BI/2. Conception/Bib/httpclient-cache-4.2.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/houria/Desktop/Exploitation des méta-données du linked Open Data dans les systèmes BI/2. Conception/Bib/httpclient-cache-4.5.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/houria/Desktop/Exploitation des méta-données du linked Open Data dans les systèmes BI/2. Conception/Bib/httpcore-4.2.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/houria/Desktop/Exploitation des méta-données du linked Open Data dans les systèmes BI/2. Conception/Bib/httpcore-4.4.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/houria/Desktop/Exploitation des méta-données du linked Open Data dans les systèmes BI/2. Conception/Bib/jackson-annotations-2.3.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/houria/Desktop/Exploitation des méta-données du linked Open Data dans les systèmes BI/2. Conception/Bib/jackson-annotations-2.7.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/houria/Desktop/Exploitation des méta-données du linked Open Data dans les systèmes BI/2. Conception/Bib/jackson-core-2.3.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/houria/Desktop/Exploitation des méta-données du linked Open Data dans les systèmes BI/2. Conception/Bib/jackson-core-2.7.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/houria/Desktop/Exploitation des méta-données du linked Open Data dans les systèmes BI/2. Conception/Bib/jackson-databind-2.3.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/houria/Desktop/Exploitation des méta-données du linked Open Data dans les systèmes BI/2. Conception/Bib/jackson-databind-2.7.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/houria/Desktop/Exploitation des méta-données du linked Open Data dans les systèmes BI/2. Conception/Bib/jcl-over-slf4j-1.7.20.jar"/>
+	<classpathentry kind="lib" path="C:/Users/houria/Desktop/Exploitation des méta-données du linked Open Data dans les systèmes BI/2. Conception/Bib/jcl-over-slf4j-1.7.21.jar"/>
+	<classpathentry kind="lib" path="C:/Users/houria/Desktop/Exploitation des méta-données du linked Open Data dans les systèmes BI/2. Conception/Bib/jcommon-1.0.23.jar"/>
+	<classpathentry kind="lib" path="C:/Users/houria/Desktop/Exploitation des méta-données du linked Open Data dans les systèmes BI/2. Conception/Bib/jena-arq-3.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/houria/Desktop/Exploitation des méta-données du linked Open Data dans les systèmes BI/2. Conception/Bib/jena-arq-3.3.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/houria/Desktop/Exploitation des méta-données du linked Open Data dans les systèmes BI/2. Conception/Bib/jena-base-3.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/houria/Desktop/Exploitation des méta-données du linked Open Data dans les systèmes BI/2. Conception/Bib/jena-base-3.3.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/houria/Desktop/Exploitation des méta-données du linked Open Data dans les systèmes BI/2. Conception/Bib/jena-cmds-3.3.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/houria/Desktop/Exploitation des méta-données du linked Open Data dans les systèmes BI/2. Conception/Bib/jena-core-3.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/houria/Desktop/Exploitation des méta-données du linked Open Data dans les systèmes BI/2. Conception/Bib/jena-core-3.3.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/houria/Desktop/Exploitation des méta-données du linked Open Data dans les systèmes BI/2. Conception/Bib/jena-iri-3.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/houria/Desktop/Exploitation des méta-données du linked Open Data dans les systèmes BI/2. Conception/Bib/jena-iri-3.3.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/houria/Desktop/Exploitation des méta-données du linked Open Data dans les systèmes BI/2. Conception/Bib/jena-rdfconnection-3.3.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/houria/Desktop/Exploitation des méta-données du linked Open Data dans les systèmes BI/2. Conception/Bib/jena-shaded-guava-3.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/houria/Desktop/Exploitation des méta-données du linked Open Data dans les systèmes BI/2. Conception/Bib/jena-shaded-guava-3.3.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/houria/Desktop/Exploitation des méta-données du linked Open Data dans les systèmes BI/2. Conception/Bib/jena-tdb-3.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/houria/Desktop/Exploitation des méta-données du linked Open Data dans les systèmes BI/2. Conception/Bib/jena-tdb-3.3.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/houria/Desktop/Exploitation des méta-données du linked Open Data dans les systèmes BI/2. Conception/Bib/jfreechart-1.0.19.jar"/>
+	<classpathentry kind="lib" path="C:/Users/houria/Desktop/Exploitation des méta-données du linked Open Data dans les systèmes BI/2. Conception/Bib/jfreechart-1.0.19-experimental.jar"/>
+	<classpathentry kind="lib" path="C:/Users/houria/Desktop/Exploitation des méta-données du linked Open Data dans les systèmes BI/2. Conception/Bib/jfreechart-1.0.19-swt.jar"/>
+	<classpathentry kind="lib" path="C:/Users/houria/Desktop/Exploitation des méta-données du linked Open Data dans les systèmes BI/2. Conception/Bib/jfreesvg-2.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/houria/Desktop/Exploitation des méta-données du linked Open Data dans les systèmes BI/2. Conception/Bib/jgraph-5.13.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/houria/Desktop/Exploitation des méta-données du linked Open Data dans les systèmes BI/2. Conception/Bib/jgrapht-core-1.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/houria/Desktop/Exploitation des méta-données du linked Open Data dans les systèmes BI/2. Conception/Bib/jgrapht-demo-1.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/houria/Desktop/Exploitation des méta-données du linked Open Data dans les systèmes BI/2. Conception/Bib/jgrapht-ext-1.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/houria/Desktop/Exploitation des méta-données du linked Open Data dans les systèmes BI/2. Conception/Bib/jgrapht-ext-1.1.0-uber.jar"/>
+	<classpathentry kind="lib" path="C:/Users/houria/Desktop/Exploitation des méta-données du linked Open Data dans les systèmes BI/2. Conception/Bib/jgrapht-io-1.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/houria/Desktop/Exploitation des méta-données du linked Open Data dans les systèmes BI/2. Conception/Bib/jgrapht-io-1.1.0-uber.jar"/>
+	<classpathentry kind="lib" path="C:/Users/houria/Desktop/Exploitation des méta-données du linked Open Data dans les systèmes BI/2. Conception/Bib/jgraphx-2.0.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/houria/Desktop/Exploitation des méta-données du linked Open Data dans les systèmes BI/2. Conception/Bib/jsonld-java-0.7.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/houria/Desktop/Exploitation des méta-données du linked Open Data dans les systèmes BI/2. Conception/Bib/jsonld-java-0.9.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/houria/Desktop/Exploitation des méta-données du linked Open Data dans les systèmes BI/2. Conception/Bib/junit-4.11.jar"/>
+	<classpathentry kind="lib" path="C:/Users/houria/Desktop/Exploitation des méta-données du linked Open Data dans les systèmes BI/2. Conception/Bib/libthrift-0.9.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/houria/Desktop/Exploitation des méta-données du linked Open Data dans les systèmes BI/2. Conception/Bib/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="C:/Users/houria/Desktop/Exploitation des méta-données du linked Open Data dans les systèmes BI/2. Conception/Bib/ojdbc7.jar"/>
+	<classpathentry kind="lib" path="C:/Users/houria/Desktop/Exploitation des méta-données du linked Open Data dans les systèmes BI/2. Conception/Bib/OraclePlugin11g.jar"/>
+	<classpathentry kind="lib" path="C:/Users/houria/Desktop/Exploitation des méta-données du linked Open Data dans les systèmes BI/2. Conception/Bib/OraclePlugin12c.jar"/>
+	<classpathentry kind="lib" path="C:/Users/houria/Desktop/Exploitation des méta-données du linked Open Data dans les systèmes BI/2. Conception/Bib/orai18n.jar"/>
+	<classpathentry kind="lib" path="C:/Users/houria/Desktop/Exploitation des méta-données du linked Open Data dans les systèmes BI/2. Conception/Bib/org.semanticweb.owl.owlapi.jar"/>
+	<classpathentry kind="lib" path="C:/Users/houria/Desktop/Exploitation des méta-données du linked Open Data dans les systèmes BI/2. Conception/Bib/orsoncharts-1.4-eval-nofx.jar"/>
+	<classpathentry kind="lib" path="C:/Users/houria/Desktop/Exploitation des méta-données du linked Open Data dans les systèmes BI/2. Conception/Bib/orsonpdf-1.6-eval.jar"/>
+	<classpathentry kind="lib" path="C:/Users/houria/Desktop/Exploitation des méta-données du linked Open Data dans les systèmes BI/2. Conception/Bib/owlapi-distribution-3.4.10.jar"/>
+	<classpathentry kind="lib" path="C:/Users/houria/Desktop/Exploitation des méta-données du linked Open Data dans les systèmes BI/2. Conception/Bib/owlapi-osgidistribution-4.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/houria/Desktop/Exploitation des méta-données du linked Open Data dans les systèmes BI/2. Conception/Bib/sdordf.jar"/>
+	<classpathentry kind="lib" path="C:/Users/houria/Desktop/Exploitation des méta-données du linked Open Data dans les systèmes BI/2. Conception/Bib/sdordfclient.jar"/>
+	<classpathentry kind="lib" path="C:/Users/houria/Desktop/Exploitation des méta-données du linked Open Data dans les systèmes BI/2. Conception/Bib/servlet.jar"/>
+	<classpathentry kind="lib" path="C:/Users/houria/Desktop/Exploitation des méta-données du linked Open Data dans les systèmes BI/2. Conception/Bib/slf4j-api-1.7.20.jar"/>
+	<classpathentry kind="lib" path="C:/Users/houria/Desktop/Exploitation des méta-données du linked Open Data dans les systèmes BI/2. Conception/Bib/slf4j-log4j12-1.7.20.jar"/>
+	<classpathentry kind="lib" path="C:/Users/houria/Desktop/Exploitation des méta-données du linked Open Data dans les systèmes BI/2. Conception/Bib/swtgraphics2d.jar"/>
+	<classpathentry kind="lib" path="C:/Users/houria/Desktop/Exploitation des méta-données du linked Open Data dans les systèmes BI/2. Conception/Bib/xercesImpl-2.9.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/houria/Desktop/Exploitation des méta-données du linked Open Data dans les systèmes BI/2. Conception/Bib/xml-apis-1.4.01.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>

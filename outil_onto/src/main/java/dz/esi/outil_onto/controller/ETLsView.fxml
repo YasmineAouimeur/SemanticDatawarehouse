@@ -1,0 +1,1038 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="700.0" prefWidth="1125.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dz.esi.outil_onto.controller.ETLCont">
+   <children>
+      <ScrollPane prefHeight="700.0" prefWidth="1125.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="1156.0" prefWidth="1125.0">
+               <children>
+                  <TabPane prefHeight="1204.0" prefWidth="1125.0" tabClosingPolicy="UNAVAILABLE">
+                    <tabs>
+                      <Tab text="Extraction">
+                           <content>
+                              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                 <children>
+                                    <AnchorPane prefHeight="845.0" prefWidth="1120.0" style="-fx-background-color: #f4f4f4;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                       <children>
+                                          <SplitPane dividerPositions="0.06649616368286446, 0.21398124467178176, 0.453537936913896" orientation="VERTICAL" prefHeight="723.0" prefWidth="1125.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                            <items>
+                                                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="117.0" prefWidth="160.0">
+                                                   <children>
+                                                      <VBox prefHeight="358.0" prefWidth="1123.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                         <children>
+                                                            <Label prefHeight="50.0" prefWidth="924.0" text="Extracting instances from internal and/or external sources according to defined mappings :" textFill="#455a64">
+                                                               <font>
+                                                                  <Font name="System Bold" size="18.0" />
+                                                               </font>
+                                                               <VBox.margin>
+                                                                  <Insets bottom="10.0" left="35.0" top="10.0" />
+                                                               </VBox.margin>
+                                                            </Label>
+                                                         </children>
+                                                      </VBox>
+                                                   </children>
+                                                </AnchorPane>
+                                              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                                                   <children>
+                                                      <VBox prefHeight="358.0" prefWidth="1123.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                         <children>
+                                                            <HBox prefHeight="74.0" prefWidth="1083.0">
+                                                               <children>
+                                                                  <Button fx:id="LoadMappings" mnemonicParsing="false" onAction="#LoadMappings" prefHeight="25.0" prefWidth="450.0" text="Load Mappings">
+                                                                     <HBox.margin>
+                                                                        <Insets left="40.0" right="120.0" top="20.0" />
+                                                                     </HBox.margin>
+                                                                  </Button>
+                                                                  <ComboBox fx:id="comboMap" onAction="#consultMapDetails" prefHeight="25.0" prefWidth="450.0" promptText="Choose a mapping">
+                                                                     <HBox.margin>
+                                                                        <Insets right="40.0" top="20.0" />
+                                                                     </HBox.margin>
+                                                                  </ComboBox>
+                                                               </children>
+                                                               <VBox.margin>
+                                                                  <Insets right="40.0" />
+                                                               </VBox.margin>
+                                                            </HBox>
+                                                            <HBox prefHeight="88.0" prefWidth="1123.0">
+                                                               <children>
+                                                                  <VBox prefHeight="55.0" prefWidth="604.0" />
+                                                                  <VBox prefHeight="55.0" prefWidth="604.0">
+                                                                     <children>
+                                                                        <Button mnemonicParsing="false" onAction="#ExtractExternalInstances" prefHeight="25.0" prefWidth="440.0" text="Extract external instances">
+                                                                           <VBox.margin>
+                                                                              <Insets bottom="20.0" left="40.0" />
+                                                                           </VBox.margin>
+                                                                        </Button>
+                                                                        <Button mnemonicParsing="false" onAction="#ExtractInternalInstances" prefHeight="25.0" prefWidth="440.0" text="Extract internal instances">
+                                                                           <VBox.margin>
+                                                                              <Insets left="40.0" />
+                                                                           </VBox.margin>
+                                                                        </Button>
+                                                                     </children>
+                                                                  </VBox>
+                                                               </children>
+                                                            </HBox>
+                                                         </children>
+                                                      </VBox>
+                                                   </children>
+                                                </AnchorPane>
+                                              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                                                   <children>
+                                                      <VBox prefHeight="357.0" prefWidth="1123.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                         <children>
+                                                            <HBox prefHeight="17.0" prefWidth="1123.0">
+                                                               <children>
+                                                                  <Label prefHeight="17.0" prefWidth="193.0" text="Source classes :" textFill="#455a64">
+                                                                     <font>
+                                                                        <Font name="System Bold" size="13.0" />
+                                                                     </font>
+                                                                     <HBox.margin>
+                                                                        <Insets bottom="10.0" left="35.0" top="10.0" />
+                                                                     </HBox.margin>
+                                                                  </Label>
+                                                                  <Label prefHeight="17.0" prefWidth="193.0" text="Target class :" textFill="#455a64">
+                                                                     <font>
+                                                                        <Font name="System Bold" size="13.0" />
+                                                                     </font>
+                                                                     <HBox.margin>
+                                                                        <Insets bottom="10.0" left="380.0" top="10.0" />
+                                                                     </HBox.margin>
+                                                                  </Label>
+                                                               </children>
+                                                               <VBox.margin>
+                                                                  <Insets top="10.0" />
+                                                               </VBox.margin>
+                                                            </HBox>
+                                                            <HBox prefHeight="213.0" prefWidth="1123.0">
+                                                               <children>
+                                                                  <VBox prefHeight="139.0" prefWidth="540.0">
+                                                                     <children>
+                                                                        <Label prefHeight="17.0" prefWidth="193.0" text="Internal class :" textFill="#455a64">
+                                                                           <font>
+                                                                              <Font name="System Bold" size="12.0" />
+                                                                           </font>
+                                                                           <VBox.margin>
+                                                                              <Insets bottom="10.0" left="35.0" />
+                                                                           </VBox.margin>
+                                                                        </Label>
+                                                                        <TextArea fx:id="InternalClasses" prefHeight="86.0" prefWidth="459.0">
+                                                                           <VBox.margin>
+                                                                              <Insets left="40.0" />
+                                                                           </VBox.margin>
+                                                                        </TextArea>
+                                                                        <Label prefHeight="17.0" prefWidth="193.0" text="External classes :" textFill="#455a64">
+                                                                           <font>
+                                                                              <Font name="System Bold" size="12.0" />
+                                                                           </font>
+                                                                           <VBox.margin>
+                                                                              <Insets left="35.0" top="10.0" />
+                                                                           </VBox.margin>
+                                                                        </Label>
+                                                                        <HBox prefHeight="112.0" prefWidth="503.0">
+                                                                           <children>
+                                                                              <TextArea fx:id="ExternalClasses" prefHeight="94.0" prefWidth="242.0">
+                                                                                 <HBox.margin>
+                                                                                    <Insets left="40.0" top="10.0" />
+                                                                                 </HBox.margin>
+                                                                              </TextArea>
+                                                                              <Label prefHeight="17.0" prefWidth="172.0" text="Metadata format :" textFill="#455a64">
+                                                                                 <font>
+                                                                                    <Font name="System Bold" size="12.0" />
+                                                                                 </font>
+                                                                                 <HBox.margin>
+                                                                                    <Insets left="10.0" top="20.0" />
+                                                                                 </HBox.margin>
+                                                                              </Label>
+                                                                              <TextArea fx:id="Formats" prefHeight="78.0" prefWidth="163.0">
+                                                                                 <HBox.margin>
+                                                                                    <Insets top="10.0" />
+                                                                                 </HBox.margin>
+                                                                              </TextArea>
+                                                                           </children>
+                                                                        </HBox>
+                                                                     </children>
+                                                                     <HBox.margin>
+                                                                        <Insets bottom="10.0" />
+                                                                     </HBox.margin>
+                                                                  </VBox>
+                                                                  <TextArea fx:id="TargetClass" prefHeight="145.0" prefWidth="558.0">
+                                                                     <HBox.margin>
+                                                                        <Insets bottom="10.0" left="100.0" right="40.0" top="10.0" />
+                                                                     </HBox.margin>
+                                                                  </TextArea>
+                                                               </children>
+                                                            </HBox>
+                                                         </children>
+                                                      </VBox>
+                                                   </children>
+                                                </AnchorPane>
+                                                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                                                   <children>
+                                                      <HBox prefHeight="496.0" prefWidth="1123.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                         <children>
+                                                            <VBox prefHeight="357.0" prefWidth="1123.0">
+                                                               <children>
+                                                                  <Label prefHeight="2.0" prefWidth="193.0" text="Internal instances :" textFill="#455a64">
+                                                                     <font>
+                                                                        <Font name="System Bold" size="12.0" />
+                                                                     </font>
+                                                                     <VBox.margin>
+                                                                        <Insets left="40.0" top="10.0" />
+                                                                     </VBox.margin>
+                                                                  </Label>
+                                                                  <TextArea fx:id="IntInstances" prefHeight="354.0" prefWidth="1045.0">
+                                                                     <VBox.margin>
+                                                                        <Insets left="40.0" right="40.0" top="10.0" />
+                                                                     </VBox.margin>
+                                                                  </TextArea>
+                                                               </children>
+                                                            </VBox>
+                                                            <VBox prefHeight="357.0" prefWidth="1123.0">
+                                                               <children>
+                                                                  <Label prefHeight="2.0" prefWidth="193.0" text="External instances :" textFill="#455a64">
+                                                                     <font>
+                                                                        <Font name="System Bold" size="12.0" />
+                                                                     </font>
+                                                                     <VBox.margin>
+                                                                        <Insets left="40.0" top="10.0" />
+                                                                     </VBox.margin>
+                                                                  </Label>
+                                                                  <TextArea fx:id="ExtInstances" prefHeight="354.0" prefWidth="1045.0">
+                                                                     <VBox.margin>
+                                                                        <Insets left="40.0" right="40.0" top="10.0" />
+                                                                     </VBox.margin>
+                                                                  </TextArea>
+                                                               </children>
+                                                            </VBox>
+                                                         </children>
+                                                      </HBox>
+                                                   </children>
+                                                </AnchorPane>
+                                            </items>
+                                          </SplitPane>
+                                       </children>
+                                    </AnchorPane>
+                                 </children>
+                              </AnchorPane>
+                           </content>
+                        </Tab>
+                      <Tab text="Transformation">
+                           <content>
+                              <AnchorPane maxHeight="1112.0" minHeight="0.0" minWidth="0.0" prefHeight="849.0" prefWidth="1125.0">
+                                 <children>
+                                    <SplitPane dividerPositions="0.06283662477558348, 0.5646319569120287, 0.9048473967684022" layoutX="-15.0" layoutY="-6.0" orientation="VERTICAL" prefHeight="963.0" prefWidth="1125.0" AnchorPane.bottomAnchor="-4.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                      <items>
+                                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                                             <children>
+                                                <VBox prefHeight="117.0" prefWidth="1123.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                   <children>
+                                                      <Label prefHeight="27.0" prefWidth="924.0" text="Transformation and unification of data and metadata : " textFill="#455a64">
+                                                         <font>
+                                                            <Font name="System Bold" size="18.0" />
+                                                         </font>
+                                                         <VBox.margin>
+                                                            <Insets left="35.0" top="10.0" />
+                                                         </VBox.margin>
+                                                      </Label>
+                                                   </children>
+                                                </VBox>
+                                             </children>
+                                          </AnchorPane>
+                                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                                             <children>
+                                            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="553.0" prefWidth="1123.0">
+                                                   <children>
+                                                      <VBox prefHeight="553.0" prefWidth="1123.0" AnchorPane.bottomAnchor="-75.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                         <children>
+                                                            <Label prefHeight="30.0" prefWidth="924.0" text="1. Execute one by one data and metadata transformations  : " textFill="#455a64">
+                                                               <font>
+                                                                  <Font name="System Bold" size="13.0" />
+                                                               </font>
+                                                               <VBox.margin>
+                                                                  <Insets left="35.0" />
+                                                               </VBox.margin>
+                                                            </Label>
+                                                            <HBox prefHeight="270.0" prefWidth="1123.0">
+                                                               <children>
+                                                                  <VBox prefHeight="260.0" prefWidth="202.0">
+                                                                     <children>
+                                                                        <Button mnemonicParsing="false" onAction="#instancesUnification" prefHeight="25.0" prefWidth="155.0" text="Union">
+                                                                           <VBox.margin>
+                                                                              <Insets bottom="20.0" />
+                                                                           </VBox.margin>
+                                                                        </Button>
+                                                                        <Button mnemonicParsing="false" onAction="#detectDuplication" prefHeight="25.0" prefWidth="155.0" text="Detect duplication">
+                                                                           <VBox.margin>
+                                                                              <Insets bottom="20.0" />
+                                                                           </VBox.margin>
+                                                                        </Button>
+                                                                        <Button mnemonicParsing="false" onAction="#OverlapDetection" prefHeight="25.0" prefWidth="155.0" text="Detect Overlapping">
+                                                                           <VBox.margin>
+                                                                              <Insets bottom="20.0" />
+                                                                           </VBox.margin>
+                                                                        </Button>
+                                                                        <Button mnemonicParsing="false" onAction="#ViewDSA" prefHeight="25.0" prefWidth="155.0" text="View DSA" />
+                                                                     </children>
+                                                                     <HBox.margin>
+                                                                        <Insets left="40.0" top="10.0" />
+                                                                     </HBox.margin>
+                                                                  </VBox>
+                                                                  <TextArea fx:id="UnionInstances" prefHeight="270.0" prefWidth="840.0">
+                                                                     <HBox.margin>
+                                                                        <Insets right="40.0" />
+                                                                     </HBox.margin></TextArea>
+                                                               </children>
+                                                            </HBox>
+                                                            <Label prefHeight="30.0" prefWidth="924.0" text="2. List unified instances : " textFill="#455a64">
+                                                               <font>
+                                                                  <Font name="System Bold" size="13.0" />
+                                                               </font>
+                                                               <VBox.margin>
+                                                                  <Insets left="35.0" />
+                                                               </VBox.margin>
+                                                            </Label>
+                                                            <HBox prefHeight="44.0" prefWidth="1123.0">
+                                                               <children>
+                                                                  <ComboBox fx:id="comboDupInstances" onAction="#showDataMeta" prefHeight="25.0" prefWidth="470.0" promptText="Choose an instance">
+                                                                     <HBox.margin>
+                                                                        <Insets left="40.0" right="40.0" top="10.0" />
+                                                                     </HBox.margin>
+                                                                  </ComboBox>
+                                                               </children>
+                                                               <VBox.margin>
+                                                                  <Insets bottom="10.0" top="10.0" />
+                                                               </VBox.margin>
+                                                            </HBox>
+                                                            <Label prefHeight="30.0" prefWidth="924.0" text="3. List unified data and metadata for the selected instance : " textFill="#455a64">
+                                                               <font>
+                                                                  <Font name="System Bold" size="13.0" />
+                                                               </font>
+                                                               <VBox.margin>
+                                                                  <Insets left="35.0" />
+                                                               </VBox.margin>
+                                                            </Label>
+                                                            <HBox prefHeight="18.0" prefWidth="1123.0">
+                                                               <children>
+                                                                  <Label prefHeight="17.0" prefWidth="193.0" text="List of unificated data :" textFill="#455a64">
+                                                                     <font>
+                                                                        <Font name="System Bold" size="12.0" />
+                                                                     </font>
+                                                                     <HBox.margin>
+                                                                        <Insets bottom="10.0" left="35.0" top="10.0" />
+                                                                     </HBox.margin>
+                                                                  </Label>
+                                                                  <Label prefHeight="17.0" prefWidth="193.0" text="List of unificated metadata :" textFill="#455a64">
+                                                                     <font>
+                                                                        <Font name="System Bold" size="12.0" />
+                                                                     </font>
+                                                                     <HBox.margin>
+                                                                        <Insets left="320.0" top="10.0" />
+                                                                     </HBox.margin>
+                                                                  </Label>
+                                                               </children>
+                                                            </HBox>
+                                                            <HBox prefHeight="70.0" prefWidth="1123.0">
+                                                               <children>
+                                                                  <TextArea fx:id="instData" prefHeight="80.0" prefWidth="470.0">
+                                                                     <HBox.margin>
+                                                                        <Insets left="40.0" />
+                                                                     </HBox.margin>
+                                                                  </TextArea>
+                                                                  <TextArea fx:id="instMeta" prefHeight="70.0" prefWidth="521.0">
+                                                                     <HBox.margin>
+                                                                        <Insets left="50.0" right="40.0" />
+                                                                     </HBox.margin>
+                                                                  </TextArea>
+                                                               </children>
+                                                            </HBox>
+                                                         </children>
+                                                      </VBox>
+                                                   </children>
+                                                </AnchorPane>
+                                             </children>
+                                          </AnchorPane>
+                                          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                                             <children>
+                                                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="395.0" prefWidth="1123.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                   <children>
+                                                      <VBox prefHeight="598.0" prefWidth="1125.0">
+                                                         <children>
+                                                            <Label prefHeight="50.0" prefWidth="924.0" text="4. Detect metadata overlapping :" textFill="#455a64">
+                                                               <font>
+                                                                  <Font name="System Bold" size="13.0" />
+                                                               </font>
+                                                               <VBox.margin>
+                                                                  <Insets left="35.0" top="10.0" />
+                                                               </VBox.margin>
+                                                            </Label>
+                                                            <Label prefHeight="2.0" prefWidth="450.0" text="List overlapping metadata of the selected instance :" textFill="#455a64">
+                                                               <font>
+                                                                  <Font name="System Bold" size="12.0" />
+                                                               </font>
+                                                               <VBox.margin>
+                                                                  <Insets left="35.0" top="10.0" />
+                                                               </VBox.margin>
+                                                            </Label>
+                                                            <HBox prefHeight="74.0" prefWidth="1125.0">
+                                                               <children>
+                                                                  <ComboBox fx:id="comboMetaOver" prefHeight="25.0" prefWidth="470.0" promptText="Choose an overlaped metadata">
+                                                                     <HBox.margin>
+                                                                        <Insets left="40.0" top="10.0" />
+                                                                     </HBox.margin>
+                                                                  </ComboBox>
+                                                                  <Button mnemonicParsing="false" onAction="#manageMetaOverlapping" prefWidth="521.0" text="Check metadata inconsistencies ">
+                                                                     <HBox.margin>
+                                                                        <Insets left="50.0" right="40.0" top="10.0" />
+                                                                     </HBox.margin>
+                                                                  </Button>
+                                                               </children>
+                                                            </HBox>
+                                                            <HBox prefHeight="33.0" prefWidth="1125.0">
+                                                               <children>
+                                                                  <Label prefHeight="13.0" prefWidth="209.0" text="List of overlapped metadata values :" textFill="#455a64">
+                                                                     <font>
+                                                                        <Font name="System Bold" size="12.0" />
+                                                                     </font>
+                                                                     <HBox.margin>
+                                                                        <Insets bottom="10.0" left="35.0" top="10.0" />
+                                                                     </HBox.margin>
+                                                                  </Label>
+                                                                  <Label prefHeight="17.0" prefWidth="250.0" text="Metadata values to keep in the DSA :" textFill="#455a64">
+                                                                     <font>
+                                                                        <Font name="System Bold" size="12.0" />
+                                                                     </font>
+                                                                     <HBox.margin>
+                                                                        <Insets left="300.0" top="10.0" />
+                                                                     </HBox.margin>
+                                                                  </Label>
+                                                               </children>
+                                                            </HBox>
+                                                            <HBox prefHeight="103.0" prefWidth="1125.0">
+                                                               <children>
+                                                                  <TextArea fx:id="allMetaValues" prefHeight="103.0" prefWidth="450.0">
+                                                                     <HBox.margin>
+                                                                        <Insets left="40.0" right="20.0" />
+                                                                     </HBox.margin>
+                                                                  </TextArea>
+                                                                  <TextArea fx:id="selectedMetaValues" prefHeight="200.0" prefWidth="470.0">
+                                                                     <HBox.margin>
+                                                                        <Insets left="50.0" />
+                                                                     </HBox.margin>
+                                                                  </TextArea>
+                                                               </children>
+                                                               <VBox.margin>
+                                                                  <Insets />
+                                                               </VBox.margin>
+                                                            </HBox>
+                                                            <HBox prefHeight="56.0" prefWidth="1125.0">
+                                                               <children>
+                                                                  <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="450.0" text="Save changes on the selected Metadata">
+                                                                     <HBox.margin>
+                                                                        <Insets left="40.0" right="70.0" top="20.0" />
+                                                                     </HBox.margin>
+                                                                  </Button>
+                                                               </children>
+                                                            </HBox>
+                                                         </children>
+                                                      </VBox>
+                                                   </children>
+                                                </AnchorPane>
+                                             </children>
+                                          </AnchorPane>
+                                          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="43.0" prefWidth="1123.0">
+                                             <children>
+                                                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="355.0" prefWidth="1123.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                   <children>
+                                                      <VBox prefHeight="180.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                         <children>
+                                                            <Label prefHeight="50.0" prefWidth="600.0" text="5- Save operations and update the DSA :" textFill="#455a64">
+                                                               <font>
+                                                                  <Font name="System Bold" size="13.0" />
+                                                               </font>
+                                                               <VBox.margin>
+                                                                  <Insets left="35.0" />
+                                                               </VBox.margin>
+                                                            </Label>
+                                                            <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="450.0" text="Save changes on the selected instance">
+                                                               <VBox.margin>
+                                                                  <Insets left="40.0" top="10.0" />
+                                                               </VBox.margin>
+                                                            </Button>
+                                                         </children>
+                                                      </VBox>
+                                                   </children>
+                                                </AnchorPane>
+                                             </children>
+                                          </AnchorPane>
+                                      </items>
+                                    </SplitPane>
+                                    <AnchorPane prefHeight="845.0" prefWidth="1120.0" style="-fx-background-color: #f4f4f4;" visible="false" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                       <children>
+                                          <VBox prefHeight="845.0" prefWidth="1120.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                             <children>
+                                                <Label prefHeight="27.0" prefWidth="924.0" text="1- Transformation and unification of Data : " textFill="#455a64">
+                                                   <font>
+                                                      <Font name="System Bold" size="18.0" />
+                                                   </font>
+                                                   <VBox.margin>
+                                                      <Insets left="35.0" top="10.0" />
+                                                   </VBox.margin>
+                                                </Label>
+                                                <HBox prefHeight="162.0" prefWidth="1125.0">
+                                                   <children>
+                                                      <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="450.0" text="Extract duplicated instances">
+                                                         <HBox.margin>
+                                                            <Insets left="40.0" right="120.0" top="10.0" />
+                                                         </HBox.margin>
+                                                      </Button>
+                                                      <ComboBox fx:id="comboMap11" prefHeight="25.0" prefWidth="450.0" promptText="Choose an instance">
+                                                         <HBox.margin>
+                                                            <Insets right="40.0" top="10.0" />
+                                                         </HBox.margin>
+                                                      </ComboBox>
+                                                   </children>
+                                                   <VBox.margin>
+                                                      <Insets right="40.0" />
+                                                   </VBox.margin>
+                                                </HBox>
+                                                <HBox prefHeight="100.0" prefWidth="200.0">
+                                                   <children>
+                                                      <Label prefHeight="17.0" prefWidth="193.0" text="Liste of duplicated instances : " textFill="#455a64">
+                                                         <font>
+                                                            <Font name="System Bold" size="12.0" />
+                                                         </font>
+                                                         <HBox.margin>
+                                                            <Insets bottom="10.0" left="35.0" top="10.0" />
+                                                         </HBox.margin>
+                                                      </Label>
+                                                      <Label prefHeight="17.0" prefWidth="193.0" text="List of unificated data :" textFill="#455a64">
+                                                         <font>
+                                                            <Font name="System Bold" size="12.0" />
+                                                         </font>
+                                                         <HBox.margin>
+                                                            <Insets bottom="10.0" left="175.0" top="10.0" />
+                                                         </HBox.margin>
+                                                      </Label>
+                                                      <Label prefHeight="17.0" prefWidth="193.0" text="List of unificated metadata :" textFill="#455a64">
+                                                         <font>
+                                                            <Font name="System Bold" size="12.0" />
+                                                         </font>
+                                                         <HBox.margin>
+                                                            <Insets left="170.0" top="10.0" />
+                                                         </HBox.margin>
+                                                      </Label>
+                                                   </children>
+                                                   <VBox.margin>
+                                                      <Insets top="10.0" />
+                                                   </VBox.margin>
+                                                </HBox>
+                                                <HBox prefHeight="207.0" prefWidth="1125.0">
+                                                   <children>
+                                                      <TextArea fx:id="sourceInstances1" prefHeight="79.0" prefWidth="470.0">
+                                                         <HBox.margin>
+                                                            <Insets left="40.0" />
+                                                         </HBox.margin>
+                                                      </TextArea>
+                                                      <TextArea fx:id="sourceInstances11" prefHeight="200.0" prefWidth="470.0">
+                                                         <HBox.margin>
+                                                            <Insets left="50.0" />
+                                                         </HBox.margin>
+                                                      </TextArea>
+                                                      <TextArea fx:id="sourceInstances111" prefHeight="200.0" prefWidth="470.0">
+                                                         <HBox.margin>
+                                                            <Insets left="50.0" right="40.0" />
+                                                         </HBox.margin>
+                                                      </TextArea>
+                                                   </children>
+                                                </HBox>
+                                                <VBox prefHeight="598.0" prefWidth="1125.0">
+                                                   <children>
+                                                      <Label prefHeight="27.0" prefWidth="924.0" text="2- Metadata overlap detection :" textFill="#455a64">
+                                                         <font>
+                                                            <Font name="System Bold" size="18.0" />
+                                                         </font>
+                                                         <VBox.margin>
+                                                            <Insets left="35.0" top="10.0" />
+                                                         </VBox.margin>
+                                                      </Label>
+                                                      <Label prefHeight="2.0" prefWidth="350.0" text="Extract list of overlaped metadata of the selected instances :" textFill="#455a64">
+                                                         <font>
+                                                            <Font name="System Bold" size="12.0" />
+                                                         </font>
+                                                         <VBox.margin>
+                                                            <Insets left="40.0" top="10.0" />
+                                                         </VBox.margin>
+                                                      </Label>
+                                                      <HBox prefHeight="74.0" prefWidth="1125.0">
+                                                         <children>
+                                                            <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="450.0" text="Extract overlaped MetaData">
+                                                               <HBox.margin>
+                                                                  <Insets left="40.0" right="120.0" top="10.0" />
+                                                               </HBox.margin>
+                                                            </Button>
+                                                            <ComboBox fx:id="comboMap112" prefHeight="25.0" prefWidth="450.0" promptText="Choose an overlaped metadata">
+                                                               <HBox.margin>
+                                                                  <Insets right="40.0" top="10.0" />
+                                                               </HBox.margin>
+                                                            </ComboBox>
+                                                         </children>
+                                                      </HBox>
+                                                      <HBox prefHeight="33.0" prefWidth="1125.0">
+                                                         <children>
+                                                            <Label prefHeight="17.0" prefWidth="193.0" text="Liste of duplicated metadata" textFill="#455a64">
+                                                               <font>
+                                                                  <Font name="System Bold" size="12.0" />
+                                                               </font>
+                                                               <HBox.margin>
+                                                                  <Insets bottom="10.0" left="35.0" top="10.0" />
+                                                               </HBox.margin>
+                                                            </Label>
+                                                            <Label prefHeight="17.0" prefWidth="250.0" text="Metadata to keep in the DSA :" textFill="#455a64">
+                                                               <font>
+                                                                  <Font name="System Bold" size="12.0" />
+                                                               </font>
+                                                               <HBox.margin>
+                                                                  <Insets left="330.0" top="10.0" />
+                                                               </HBox.margin>
+                                                            </Label>
+                                                         </children>
+                                                      </HBox>
+                                                      <HBox prefHeight="103.0" prefWidth="1125.0">
+                                                         <children>
+                                                            <TextArea fx:id="sourceInstances11" prefHeight="79.0" prefWidth="470.0">
+                                                               <HBox.margin>
+                                                                  <Insets left="40.0" />
+                                                               </HBox.margin>
+                                                            </TextArea>
+                                                            <TextArea fx:id="sourceInstances111" prefHeight="200.0" prefWidth="470.0">
+                                                               <HBox.margin>
+                                                                  <Insets left="50.0" />
+                                                               </HBox.margin>
+                                                            </TextArea>
+                                                         </children>
+                                                         <VBox.margin>
+                                                            <Insets />
+                                                         </VBox.margin>
+                                                      </HBox>
+                                                      <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="450.0" text="Load unificated Metadata">
+                                                         <VBox.margin>
+                                                            <Insets left="40.0" top="10.0" />
+                                                         </VBox.margin>
+                                                      </Button>
+                                                      <Label prefHeight="27.0" prefWidth="924.0" text="3- Load unificated data and metadata of the instance in the DSA :" textFill="#455a64">
+                                                         <font>
+                                                            <Font name="System Bold" size="18.0" />
+                                                         </font>
+                                                         <VBox.margin>
+                                                            <Insets left="35.0" top="20.0" />
+                                                         </VBox.margin>
+                                                      </Label>
+                                                      <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="450.0" text="Load instance changes ">
+                                                         <VBox.margin>
+                                                            <Insets left="40.0" top="10.0" />
+                                                         </VBox.margin>
+                                                      </Button>
+                                                   </children>
+                                                </VBox>
+                                             </children>
+                                          </VBox>
+                                       </children>
+                                    </AnchorPane>
+                                    <AnchorPane fx:id="BackMessage" prefHeight="959.0" prefWidth="1125.0" style="-fx-background-color: #000000; -fx-opacity: 0.5;" visible="false" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                                    <VBox fx:id="Message" layoutX="234.0" prefHeight="250.0" prefWidth="685.0" style="-fx-background-color: #37474f; -fx-background-radius: 5; -fx-border-radius: 5; -fx-border-color: #f4f4f4;" visible="false" AnchorPane.leftAnchor="234.0" AnchorPane.rightAnchor="206.0" AnchorPane.topAnchor="400.0">
+                                       <children>
+                                          <Label prefHeight="27.0" prefWidth="924.0" text="Manage metadata overlapping :" textFill="#c6c8c9">
+                                             <font>
+                                                <Font name="System Bold" size="20.0" />
+                                             </font>
+                                             <padding>
+                                                <Insets left="35.0" top="10.0" />
+                                             </padding>
+                                          </Label>
+                                          <HBox prefHeight="100.0" prefWidth="200.0">
+                                             <children>
+                                                <Label prefHeight="27.0" prefWidth="924.0" text="Instance Name :" textFill="#c6c8c9">
+                                                   <font>
+                                                      <Font name="System Bold" size="14.0" />
+                                                   </font>
+                                                   <padding>
+                                                      <Insets left="35.0" top="10.0" />
+                                                   </padding>
+                                                </Label>
+                                                <Label fx:id="InstanceValue" prefHeight="27.0" prefWidth="924.0" text="Value" textFill="#c6c8c9">
+                                                   <font>
+                                                      <Font name="System Bold" size="12.0" />
+                                                   </font>
+                                                   <padding>
+                                                      <Insets top="10.0" />
+                                                   </padding>
+                                                </Label>
+                                             </children>
+                                          </HBox>
+                                          <HBox prefHeight="100.0" prefWidth="800.0">
+                                             <children>
+                                                <Label prefHeight="37.0" prefWidth="500.0" text="Duplicate meta properties :" textFill="#c6c8c9">
+                                                   <font>
+                                                      <Font name="System Bold" size="14.0" />
+                                                   </font>
+                                                   <padding>
+                                                      <Insets left="35.0" top="10.0" />
+                                                   </padding>
+                                                </Label>
+                                                <ComboBox fx:id="metaPropertyToCheck" onAction="#setMetaValuesList" prefHeight="25.0" prefWidth="450.0" promptText="Choose a meta property to check">
+                                                   <HBox.margin>
+                                                      <Insets left="40.0" right="80.0" top="10.0" />
+                                                   </HBox.margin>
+                                                </ComboBox>
+                                             </children>
+                                          </HBox>
+                                          <HBox prefHeight="100.0" prefWidth="683.0">
+                                             <children>
+                                                <Label prefHeight="37.0" prefWidth="500.0" text="Conflictual meta values :" textFill="#c6c8c9">
+                                                   <font>
+                                                      <Font name="System Bold" size="14.0" />
+                                                   </font>
+                                                   <padding>
+                                                      <Insets left="35.0" top="10.0" />
+                                                   </padding>
+                                                </Label>
+                                                <ComboBox fx:id="metaValueToKeep" prefHeight="25.0" prefWidth="450.0" promptText="Choose the meta value to keep">
+                                                   <HBox.margin>
+                                                      <Insets left="40.0" right="80.0" top="10.0" />
+                                                   </HBox.margin>
+                                                </ComboBox>
+                                             </children>
+                                          </HBox>
+                                          <HBox prefHeight="19.0" prefWidth="683.0">
+                                             <children>
+                                                <Button mnemonicParsing="false" onAction="#KeepSelectedMetaValue" prefHeight="25.0" prefWidth="500.0" text="Keep the selected metadata value">
+                                                   <HBox.margin>
+                                                      <Insets left="40.0" top="10.0" />
+                                                   </HBox.margin>
+                                                </Button>
+                                                <Button mnemonicParsing="false" onAction="#keepAllMetaValues" prefHeight="25.0" prefWidth="500.0" text="Keep all metadata values ">
+                                                   <HBox.margin>
+                                                      <Insets bottom="20.0" left="10.0" top="10.0" />
+                                                   </HBox.margin>
+                                                </Button>
+                                                <Button mnemonicParsing="false" onAction="#Quit" prefWidth="350.0" text="Quit">
+                                                   <HBox.margin>
+                                                      <Insets left="10.0" right="40.0" top="10.0" />
+                                                   </HBox.margin>
+                                                </Button>
+                                             </children>
+                                             <VBox.margin>
+                                                <Insets top="20.0" />
+                                             </VBox.margin>
+                                          </HBox>
+                                       </children>
+                                       <opaqueInsets>
+                                          <Insets />
+                                       </opaqueInsets>
+                                    </VBox>
+                                 </children>
+                              </AnchorPane>
+                           </content>
+                        </Tab>
+                        <Tab text="Load">
+                           <content>
+                              <AnchorPane maxHeight="1112.0" minHeight="0.0" minWidth="0.0" prefHeight="849.0" prefWidth="1125.0">
+                                 <children>
+                                    <SplitPane dividerPositions="0.06269592476489028, 0.34796238244514105" layoutX="-15.0" layoutY="-6.0" orientation="VERTICAL" prefHeight="959.0" prefWidth="1125.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                       <items>
+                                          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="61.0" prefWidth="1123.0">
+                                             <children>
+                                                <VBox prefHeight="117.0" prefWidth="1123.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                   <children>
+                                                      <Label prefHeight="27.0" prefWidth="924.0" text="Load data and metadata in the datawarehouse :" textFill="#455a64">
+                                                         <font>
+                                                            <Font name="System Bold" size="18.0" />
+                                                         </font>
+                                                         <VBox.margin>
+                                                            <Insets left="35.0" top="10.0" />
+                                                         </VBox.margin>
+                                                      </Label>
+                                                      <HBox prefHeight="74.0" prefWidth="1125.0" />
+                                                   </children>
+                                                </VBox>
+                                             </children>
+                                          </AnchorPane>
+                                          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                                             <children>
+                                                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="478.0" prefWidth="1123.0">
+                                                   <children>
+                                                      <VBox prefHeight="647.0" prefWidth="1123.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                         <children>
+                                                            <Label prefHeight="50.0" prefWidth="924.0" text="1. Load the extracted metaproperties in the MetaSchema : " textFill="#455a64">
+                                                               <font>
+                                                                  <Font name="System Bold" size="13.0" />
+                                                               </font>
+                                                               <VBox.margin>
+                                                                  <Insets left="35.0" />
+                                                               </VBox.margin>
+                                                            </Label>
+                                                            <HBox prefHeight="46.0" prefWidth="1104.0">
+                                                               <children>
+                                                                  <Label prefHeight="17.0" prefWidth="193.0" text="Operations :" textFill="#455a64">
+                                                                     <font>
+                                                                        <Font name="System Bold" size="12.0" />
+                                                                     </font>
+                                                                     <HBox.margin>
+                                                                        <Insets bottom="10.0" left="35.0" top="10.0" />
+                                                                     </HBox.margin>
+                                                                  </Label>
+                                                                  <Label prefHeight="17.0" prefWidth="193.0" text="List of extracted MetaProperites :" textFill="#455a64">
+                                                                     <font>
+                                                                        <Font name="System Bold" size="12.0" />
+                                                                     </font>
+                                                                     <HBox.margin>
+                                                                        <Insets bottom="10.0" left="310.0" top="10.0" />
+                                                                     </HBox.margin>
+                                                                  </Label>
+                                                               </children>
+                                                            </HBox>
+                                                            <HBox prefHeight="137.0" prefWidth="1123.0">
+                                                               <children>
+                                                                  <VBox prefHeight="137.0" prefWidth="494.0">
+                                                                     <children>
+                                                                        <Button mnemonicParsing="false" onAction="#showExtractedMetaProperties" prefHeight="25.0" prefWidth="450.0" text="Show extracted MetaProperties">
+                                                                           <VBox.margin>
+                                                                              <Insets left="40.0" />
+                                                                           </VBox.margin>
+                                                                        </Button>
+                                                                        <Button mnemonicParsing="false" onAction="#loadMetaSchema" prefHeight="25.0" prefWidth="450.0" text="Load MetaProperties in the target MetaSchema ">
+                                                                           <VBox.margin>
+                                                                              <Insets left="40.0" top="20.0" />
+                                                                           </VBox.margin>
+                                                                        </Button>
+                                                                     </children>
+                                                                  </VBox>
+                                                                  <TextArea fx:id="ListExtractedMetaProp" prefHeight="200.0" prefWidth="470.0">
+                                                                     <HBox.margin>
+                                                                        <Insets left="50.0" />
+                                                                     </HBox.margin>
+                                                                  </TextArea>
+                                                               </children>
+                                                            </HBox>
+                                                         </children>
+                                                      </VBox>
+                                                   </children>
+                                                </AnchorPane>
+                                             </children>
+                                          </AnchorPane>
+                                          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                                             <children>
+                                                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="448.0" prefWidth="1123.0">
+                                                   <children>
+                                                      <VBox prefHeight="290.0" prefWidth="1123.0" AnchorPane.bottomAnchor="188.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                         <children>
+                                                            <Label prefHeight="50.0" prefWidth="924.0" text="2. Load the Data Staging Area (DSA) in the target DataSchema : " textFill="#455a64">
+                                                               <font>
+                                                                  <Font name="System Bold" size="13.0" />
+                                                               </font>
+                                                               <VBox.margin>
+                                                                  <Insets left="35.0" />
+                                                               </VBox.margin>
+                                                            </Label>
+                                                            <HBox prefHeight="46.0" prefWidth="1104.0">
+                                                               <children>
+                                                                  <Label prefHeight="17.0" prefWidth="193.0" text="DataSchema classes :" textFill="#455a64">
+                                                                     <font>
+                                                                        <Font name="System Bold" size="12.0" />
+                                                                     </font>
+                                                                     <HBox.margin>
+                                                                        <Insets bottom="10.0" left="35.0" top="10.0" />
+                                                                     </HBox.margin>
+                                                                  </Label>
+                                                                  <Label prefHeight="17.0" prefWidth="193.0" text="List of instances :" textFill="#455a64">
+                                                                     <font>
+                                                                        <Font name="System Bold" size="12.0" />
+                                                                     </font>
+                                                                     <HBox.margin>
+                                                                        <Insets bottom="10.0" left="310.0" top="10.0" />
+                                                                     </HBox.margin>
+                                                                  </Label>
+                                                               </children>
+                                                            </HBox>
+                                                            <HBox prefHeight="137.0" prefWidth="1123.0">
+                                                               <children>
+                                                                  <VBox prefHeight="137.0" prefWidth="494.0">
+                                                                     <children>
+                                                                        <Button mnemonicParsing="false" onAction="#loadDSA" prefHeight="25.0" prefWidth="450.0" text="Load the DSA in the target DataSchema ">
+                                                                           <VBox.margin>
+                                                                              <Insets left="40.0" top="20.0" />
+                                                                           </VBox.margin>
+                                                                        </Button>
+                                                                     </children>
+                                                                  </VBox>
+                                                                  <TextArea fx:id="dsa" prefHeight="200.0" prefWidth="470.0">
+                                                                     <HBox.margin>
+                                                                        <Insets left="50.0" />
+                                                                     </HBox.margin>
+                                                                  </TextArea>
+                                                               </children>
+                                                            </HBox>
+                                                         </children>
+                                                      </VBox>
+                                                   </children>
+                                                </AnchorPane>
+                                             </children>
+                                          </AnchorPane>
+                                       </items>
+                                    </SplitPane>
+                                 </children>
+                              </AnchorPane>
+                           </content></Tab>
+                        <Tab text="Datawarehouse schema">
+                           <content>
+                              <AnchorPane maxHeight="1112.0" minHeight="0.0" minWidth="0.0" prefHeight="849.0" prefWidth="1125.0">
+                                 <children>
+                                    <SplitPane dividerPositions="0.06478578892371996, 0.3542319749216301" layoutX="-15.0" layoutY="-6.0" orientation="VERTICAL" prefHeight="959.0" prefWidth="1125.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                       <items>
+                                          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                                             <children>
+                                                <VBox prefHeight="117.0" prefWidth="1123.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                   <children>
+                                                      <Label prefHeight="27.0" prefWidth="924.0" text="Exploration of the datawarhouse schema : " textFill="#455a64">
+                                                         <font>
+                                                            <Font name="System Bold" size="18.0" />
+                                                         </font>
+                                                         <VBox.margin>
+                                                            <Insets left="35.0" top="10.0" />
+                                                         </VBox.margin>
+                                                      </Label>
+                                                      <HBox prefHeight="74.0" prefWidth="1125.0" />
+                                                   </children>
+                                                </VBox>
+                                             </children>
+                                          </AnchorPane>
+                                          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                                             <children>
+                                                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="478.0" prefWidth="1123.0">
+                                                   <children>
+                                                      <VBox prefHeight="647.0" prefWidth="1123.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                         <children>
+                                                            <Label prefHeight="50.0" prefWidth="924.0" text="1. Datawarhouse MetaSchema : " textFill="#455a64">
+                                                               <font>
+                                                                  <Font name="System Bold" size="13.0" />
+                                                               </font>
+                                                               <VBox.margin>
+                                                                  <Insets left="35.0" />
+                                                               </VBox.margin>
+                                                            </Label>
+                                                            <HBox prefHeight="46.0" prefWidth="1104.0">
+                                                               <children>
+                                                                  <Label prefHeight="17.0" prefWidth="193.0" text="MetaSchema classes :" textFill="#455a64">
+                                                                     <font>
+                                                                        <Font name="System Bold" size="12.0" />
+                                                                     </font>
+                                                                     <HBox.margin>
+                                                                        <Insets bottom="10.0" left="35.0" top="10.0" />
+                                                                     </HBox.margin>
+                                                                  </Label>
+                                                                  <Label prefHeight="17.0" prefWidth="193.0" text="List of MetaProperites :" textFill="#455a64">
+                                                                     <font>
+                                                                        <Font name="System Bold" size="12.0" />
+                                                                     </font>
+                                                                     <HBox.margin>
+                                                                        <Insets bottom="10.0" left="430.0" top="10.0" />
+                                                                     </HBox.margin>
+                                                                  </Label>
+                                                               </children>
+                                                            </HBox>
+                                                            <HBox prefHeight="137.0" prefWidth="1123.0">
+                                                               <children>
+                                                                  <Button mnemonicParsing="false" onAction="#affectMetaSchema" prefHeight="25.0" prefWidth="150.0" text="Load metSchema">
+                                                                     <HBox.margin>
+                                                                        <Insets left="40.0" right="10.0" top="10.0" />
+                                                                     </HBox.margin>
+                                                                  </Button>
+                                                                  <TextArea fx:id="metaProp" prefHeight="200.0" prefWidth="470.0">
+                                                                     <HBox.margin>
+                                                                        <Insets left="50.0" right="40.0" />
+                                                                     </HBox.margin>
+                                                                  </TextArea>
+                                                               </children>
+                                                            </HBox>
+                                                         </children>
+                                                      </VBox>
+                                                   </children>
+                                                </AnchorPane>
+                                             </children>
+                                          </AnchorPane>
+                                          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                                             <children>
+                                                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="478.0" prefWidth="1123.0">
+                                                   <children>
+                                                      <VBox prefHeight="647.0" prefWidth="1123.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                         <children>
+                                                            <Label prefHeight="50.0" prefWidth="924.0" text="2. Datawarhouse DataSchema : " textFill="#455a64">
+                                                               <font>
+                                                                  <Font name="System Bold" size="13.0" />
+                                                               </font>
+                                                               <VBox.margin>
+                                                                  <Insets left="35.0" />
+                                                               </VBox.margin>
+                                                            </Label>
+                                                            <HBox prefHeight="46.0" prefWidth="1104.0">
+                                                               <children>
+                                                                  <Label prefHeight="17.0" prefWidth="193.0" text="DataSchema classes :" textFill="#455a64">
+                                                                     <font>
+                                                                        <Font name="System Bold" size="12.0" />
+                                                                     </font>
+                                                                     <HBox.margin>
+                                                                        <Insets bottom="10.0" left="35.0" top="10.0" />
+                                                                     </HBox.margin>
+                                                                  </Label>
+                                                                  <Label prefHeight="17.0" prefWidth="193.0" text="List of instances :" textFill="#455a64">
+                                                                     <font>
+                                                                        <Font name="System Bold" size="12.0" />
+                                                                     </font>
+                                                                     <HBox.margin>
+                                                                        <Insets bottom="10.0" left="430.0" top="10.0" />
+                                                                     </HBox.margin>
+                                                                  </Label>
+                                                               </children>
+                                                            </HBox>
+                                                            <HBox prefHeight="137.0" prefWidth="1123.0">
+                                                               <children>
+                                                                  <Button mnemonicParsing="false" onAction="#loadSDW" prefHeight="25.0" prefWidth="150.0" text="Load dataSchema">
+                                                                     <HBox.margin>
+                                                                        <Insets left="40.0" right="10.0" top="10.0" />
+                                                                     </HBox.margin>
+                                                                  </Button>
+                                                                  <TextArea fx:id="SDW" prefHeight="200.0" prefWidth="470.0">
+                                                                     <HBox.margin>
+                                                                        <Insets left="50.0" right="40.0" />
+                                                                     </HBox.margin>
+                                                                  </TextArea>
+                                                               </children>
+                                                            </HBox>
+                                                         </children>
+                                                      </VBox>
+                                                   </children>
+                                                </AnchorPane>
+                                             </children>
+                                          </AnchorPane>
+                                       </items>
+                                    </SplitPane>
+                                 </children>
+                              </AnchorPane>
+                           </content>
+                        </Tab>
+                    </tabs>
+                  </TabPane>
+               </children>
+            </AnchorPane>
+        </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>

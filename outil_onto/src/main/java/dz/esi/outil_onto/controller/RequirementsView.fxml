@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="752.0" prefWidth="1125.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dz.esi.outil_onto.controller.RequirementCont">
+   <children>
+      <ScrollPane prefHeight="752.0" prefWidth="1125.0" style="-fx-background-color: white;">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="800.0" prefWidth="1120.0" style="-fx-background-color: white;">
+               <children>
+                  <TabPane id="Tab" prefHeight="752.0" prefWidth="1125.0" tabClosingPolicy="UNAVAILABLE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                    <tabs>
+                      <Tab text="Requirements">
+                           <content>
+                              <AnchorPane fx:id="besoinsContent" prefHeight="771.0" prefWidth="1004.0" style="-fx-background-color: #607d8b;">
+                                 <children>
+                                    <SplitPane fx:id="openOWLContent1" dividerPositions="0.1859557867360208" layoutY="-1.0" nodeOrientation="LEFT_TO_RIGHT" orientation="VERTICAL" prefHeight="618.0" prefWidth="1000.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                       <items>
+                                          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="400.0">
+                                             <children>
+                                                <ComboBox fx:id="choixBesoin" layoutX="40.0" layoutY="84.0" onAction="#choixBesoinAct" prefHeight="25.0" prefWidth="327.0" promptText="Choose a requirement" AnchorPane.bottomAnchor="25.0" AnchorPane.leftAnchor="40.0" />
+                                                <Label layoutX="40.0" layoutY="10.0" prefHeight="27.0" prefWidth="351.0" text="View the content of each requirement :" textFill="#455a64" AnchorPane.leftAnchor="35.0" AnchorPane.topAnchor="10.0">
+                                                   <font>
+                                                      <Font name="System Bold" size="18.0" />
+                                                   </font>
+                                                </Label>
+                                                <Button fx:id="addMapping1" layoutX="34.0" layoutY="45.0" mnemonicParsing="false" onAction="#initializeRequirements" prefHeight="25.0" prefWidth="327.0" text="Load Requirements" AnchorPane.bottomAnchor="65.0" AnchorPane.leftAnchor="40.0" />
+                                             </children>
+                                          </AnchorPane>
+                                          <AnchorPane minHeight="0.0" minWidth="0.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="268.0" prefWidth="411.0">
+                                             <children>
+                                                <Label layoutX="12.0" layoutY="5.0" text="Description : " textFill="#455a64" AnchorPane.leftAnchor="35.0" AnchorPane.topAnchor="10.0">
+                                                   <font>
+                                                      <Font name="System Bold" size="12.0" />
+                                                   </font>
+                                                </Label>
+                                                <TextArea fx:id="requirementDescr" editable="false" layoutX="40.0" layoutY="36.0" prefHeight="38.0" prefWidth="1076.0" AnchorPane.leftAnchor="40.0" AnchorPane.rightAnchor="40.0" />
+                                                <Label layoutX="16.0" layoutY="93.0" text="Query :" textFill="#455a64" AnchorPane.leftAnchor="35.0">
+                                                   <font>
+                                                      <Font name="System Bold" size="12.0" />
+                                                   </font>
+                                                </Label>
+                                                <TextArea fx:id="requirementQuery" editable="false" layoutX="40.0" layoutY="115.0" prefHeight="117.0" prefWidth="1075.0" AnchorPane.leftAnchor="40.0" AnchorPane.rightAnchor="40.0" />
+                                                <Button fx:id="detailsBesoin" layoutX="751.0" layoutY="243.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="334.0" text="Execute query" AnchorPane.leftAnchor="751.0" AnchorPane.rightAnchor="40.0" />
+                                                <TextArea fx:id="requirementResultQuery" editable="false" layoutX="46.0" layoutY="283.0" prefHeight="254.0" prefWidth="1038.0" AnchorPane.leftAnchor="46.0" AnchorPane.rightAnchor="34.0" />
+                                                <Label layoutX="35.0" layoutY="260.0" text="Execution result :" textFill="#455a64" AnchorPane.leftAnchor="35.0">
+                                                   <font>
+                                                      <Font name="System Bold" size="12.0" />
+                                                   </font>
+                                                </Label>
+                                             </children>
+                                          </AnchorPane>
+                                       </items>
+                                    </SplitPane>
+                                 </children>
+                              </AnchorPane>
+                           </content>
+                        </Tab>
+                      <Tab text="Mappings">
+                           <content>
+                              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: white;">
+                                 <children>
+                                    <SplitPane fx:id="openOWLContent11111" dividerPositions="0.23927178153446033" nodeOrientation="LEFT_TO_RIGHT" orientation="VERTICAL" prefHeight="618.0" prefWidth="1000.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                       <items>
+                                          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="137.0" prefWidth="385.0">
+                                             <children>
+                                                <ComboBox fx:id="comboRequirement" layoutX="13.0" layoutY="128.0" prefHeight="25.0" prefWidth="430.0" promptText="List of requirements" AnchorPane.leftAnchor="40.0" AnchorPane.topAnchor="65.0" />
+                                                <Label layoutX="11.0" layoutY="106.0" text="Choose a requirement :" textFill="#455a64" AnchorPane.leftAnchor="35.0" AnchorPane.topAnchor="40.0">
+                                                   <font>
+                                                      <Font name="System Bold" size="12.0" />
+                                                   </font>
+                                                </Label>
+                                                <Button fx:id="butReqMap" layoutX="538.0" layoutY="125.0" mnemonicParsing="false" onAction="#execMappingInRequirement" prefHeight="25.0" prefWidth="540.0" text="Execute" AnchorPane.leftAnchor="538.0" AnchorPane.rightAnchor="37.0" />
+                                                <ComboBox fx:id="comboMap1" layoutX="11.0" layoutY="188.0" prefHeight="25.0" prefWidth="430.0" promptText="List of mappings" AnchorPane.leftAnchor="40.0" AnchorPane.topAnchor="125.0" />
+                                                <Label layoutX="13.0" layoutY="167.0" text="Choose a mapping :" textFill="#455a64" AnchorPane.leftAnchor="35.0" AnchorPane.topAnchor="100.0">
+                                                   <font>
+                                                      <Font name="System Bold" size="12.0" />
+                                                   </font>
+                                                </Label>
+                                                <Button fx:id="addMapping" layoutX="539.0" layoutY="65.0" mnemonicParsing="false" onAction="#initializeRequirements" prefHeight="25.0" prefWidth="540.0" text="Load Requirements/Mappings" AnchorPane.rightAnchor="39.0" />
+                                                <Label layoutX="11.0" layoutY="79.0" text="Operations  :" textFill="#455a64" AnchorPane.leftAnchor="35.0" AnchorPane.topAnchor="10.0">
+                                                   <font>
+                                                      <Font name="System Bold" size="18.0" />
+                                                   </font>
+                                                </Label>
+                                             </children>
+                                          </AnchorPane>
+                                          <AnchorPane minHeight="0.0" minWidth="0.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="533.0" prefWidth="561.0">
+                                             <children>
+                                                <Label layoutX="14.0" layoutY="21.0" text="Result :" textFill="#455a64" AnchorPane.leftAnchor="35.0">
+                                                   <font>
+                                                      <Font name="System Bold" size="12.0" />
+                                                   </font>
+                                                </Label>
+                                                <TextArea fx:id="affichBesoin" editable="false" layoutX="10.0" layoutY="44.0" prefHeight="486.0" prefWidth="1038.0" AnchorPane.bottomAnchor="50.0" AnchorPane.leftAnchor="40.0" AnchorPane.rightAnchor="40.0" />
+                                             </children>
+                                          </AnchorPane>
+                                       </items>
+                                    </SplitPane>
+                                 </children>
+                              </AnchorPane>
+                           </content>
+                        </Tab>
+                        <Tab text="KPI">
+                           <content>
+                              <AnchorPane fx:id="besoinsContent1" prefHeight="567.0" prefWidth="433.0">
+                                 <children>
+                                    <SplitPane fx:id="openOWLContent11" dividerPositions="0.19375812743823148" layoutY="-1.0" nodeOrientation="LEFT_TO_RIGHT" orientation="VERTICAL" prefHeight="618.0" prefWidth="1000.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                       <items>
+                                          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="140.0" prefWidth="1118.0">
+                                             <children>
+                                                <Label layoutX="6.0" text="View KPI informations : " textFill="#455a64" AnchorPane.leftAnchor="35.0" AnchorPane.topAnchor="10.0">
+                                                   <font>
+                                                      <Font name="System Bold" size="18.0" />
+                                                   </font>
+                                                </Label>
+                                                <ComboBox layoutX="37.0" layoutY="46.0" prefHeight="25.0" prefWidth="467.0" promptText="Choose a KPI" AnchorPane.bottomAnchor="70.0" AnchorPane.leftAnchor="40.0" />
+                                                <Button fx:id="butKPI" layoutX="26.0" layoutY="90.0" mnemonicParsing="false" onAction="#initializeKPI" prefHeight="25.0" prefWidth="467.0" text="View all" AnchorPane.bottomAnchor="30.0" AnchorPane.leftAnchor="40.0" AnchorPane.rightAnchor="611.0" />
+                                             </children>
+                                          </AnchorPane>
+                                          <AnchorPane minHeight="0.0" minWidth="0.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="268.0" prefWidth="411.0">
+                                             <children>
+                                                <Label layoutX="10.0" layoutY="5.0" text="Result : " textFill="#455a64" AnchorPane.leftAnchor="35.0" AnchorPane.topAnchor="5.0">
+                                                   <font>
+                                                      <Font name="System Bold" size="12.0" />
+                                                   </font>
+                                                </Label>
+                                                <TextArea fx:id="KPIdesc" editable="false" layoutX="14.0" layoutY="43.0" prefHeight="482.0" prefWidth="1038.0" AnchorPane.leftAnchor="40.0" AnchorPane.rightAnchor="40.0" />
+                                             </children>
+                                          </AnchorPane>
+                                       </items>
+                                    </SplitPane>
+                                 </children>
+                              </AnchorPane>
+                           </content>
+                        </Tab>
+                        <Tab text="Internal and External Sources ">
+                           <content>
+                              <AnchorPane fx:id="besoinsContent11" prefHeight="567.0" prefWidth="433.0">
+                                 <children>
+                                    <SplitPane fx:id="openOWLContent111" dividerPositions="0.19635890767230169" layoutY="-1.0" nodeOrientation="LEFT_TO_RIGHT" orientation="VERTICAL" prefHeight="618.0" prefWidth="1000.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                       <items>
+                                          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="140.0" prefWidth="1118.0">
+                                             <children>
+                                                <ComboBox fx:id="comboIntExt" layoutX="35.0" layoutY="52.0" prefHeight="25.0" prefWidth="430.0" promptText="Choose a requirement" AnchorPane.bottomAnchor="70.0" AnchorPane.leftAnchor="40.0" />
+                                                <Button fx:id="butExtInt" layoutX="37.0" layoutY="90.0" mnemonicParsing="false" onAction="#initializeSources" prefHeight="25.0" prefWidth="430.0" text="View all" AnchorPane.bottomAnchor="30.0" AnchorPane.leftAnchor="40.0" AnchorPane.rightAnchor="648.0" />
+                                                <Label layoutX="31.0" layoutY="3.0" prefHeight="23.0" prefWidth="558.0" text="View internal and external resources used in each requirement :" textFill="#455a64" AnchorPane.bottomAnchor="114.0" AnchorPane.leftAnchor="35.0" AnchorPane.topAnchor="10.0">
+                                                   <font>
+                                                      <Font name="System Bold" size="18.0" />
+                                                   </font>
+                                                </Label>
+                                             </children>
+                                          </AnchorPane>
+                                          <AnchorPane minHeight="0.0" minWidth="0.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="268.0" prefWidth="411.0">
+                                             <children>
+                                                <Label layoutX="10.0" layoutY="5.0" text="Internal resources :" textFill="#455a64" AnchorPane.leftAnchor="35.0" AnchorPane.topAnchor="5.0">
+                                                   <font>
+                                                      <Font name="System Bold" size="12.0" />
+                                                   </font>
+                                                </Label>
+                                                <TextArea fx:id="intDesc" editable="false" layoutX="14.0" layoutY="23.0" prefHeight="222.0" prefWidth="1038.0" AnchorPane.leftAnchor="40.0" AnchorPane.rightAnchor="40.0" />
+                                                <Label layoutX="14.0" layoutY="267.0" text="External resources :" textFill="#455a64" AnchorPane.leftAnchor="35.0">
+                                                   <font>
+                                                      <Font name="System Bold" size="12.0" />
+                                                   </font>
+                                                </Label>
+                                                <TextArea fx:id="extDesc" editable="false" layoutX="14.0" layoutY="290.0" prefHeight="255.0" prefWidth="1071.0" AnchorPane.leftAnchor="40.0" AnchorPane.rightAnchor="40.0" />
+                                             </children>
+                                          </AnchorPane>
+                                       </items>
+                                    </SplitPane>
+                                 </children>
+                              </AnchorPane>
+                           </content>
+                        </Tab>
+                        <Tab text="Inserted and inferred instances">
+                           <content>
+                              <AnchorPane fx:id="besoinsContent111" prefHeight="567.0" prefWidth="433.0">
+                                 <children>
+                                    <SplitPane fx:id="openOWLContent1111" dividerPositions="0.19505851755526657" layoutY="-1.0" nodeOrientation="LEFT_TO_RIGHT" orientation="VERTICAL" prefHeight="618.0" prefWidth="1000.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                       <items>
+                                          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="140.0" prefWidth="1118.0">
+                                             <children>
+                                                <ComboBox layoutX="36.0" layoutY="55.0" prefHeight="25.0" prefWidth="430.0" promptText="Choose a requirement" AnchorPane.bottomAnchor="70.0" AnchorPane.leftAnchor="40.0" />
+                                                <Button fx:id="butInstances" layoutX="35.0" layoutY="91.0" mnemonicParsing="false" onAction="#instancesAct" prefHeight="25.0" prefWidth="431.0" text="View all " AnchorPane.bottomAnchor="30.0" AnchorPane.leftAnchor="40.0" AnchorPane.rightAnchor="647.0" />
+                                                <Label layoutX="64.0" layoutY="5.0" prefHeight="27.0" prefWidth="718.0" text="View Inserted and inferrred instances obtained from each requirement :" textFill="#455a64" AnchorPane.leftAnchor="35.0" AnchorPane.topAnchor="10.0">
+                                                   <font>
+                                                      <Font name="System Bold" size="18.0" />
+                                                   </font>
+                                                </Label>
+                                             </children>
+                                          </AnchorPane>
+                                          <AnchorPane minHeight="0.0" minWidth="0.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="268.0" prefWidth="411.0">
+                                             <children>
+                                                <Label layoutX="10.0" layoutY="5.0" text="Result :" textFill="#455a64" AnchorPane.leftAnchor="35.0" AnchorPane.topAnchor="5.0">
+                                                   <font>
+                                                      <Font name="System Bold" size="12.0" />
+                                                   </font>
+                                                   <padding>
+                                                      <Insets top="10.0" />
+                                                   </padding>
+                                                </Label>
+                                                <TextArea fx:id="instancesDesc" editable="false" layoutX="14.0" layoutY="43.0" prefHeight="502.0" prefWidth="1038.0" AnchorPane.leftAnchor="40.0" AnchorPane.rightAnchor="40.0" />
+                                             </children>
+                                          </AnchorPane>
+                                       </items>
+                                    </SplitPane>
+                                 </children>
+                              </AnchorPane>
+                           </content>
+                        </Tab>
+                    </tabs>
+                  </TabPane>
+               </children>
+            </AnchorPane>
+        </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>

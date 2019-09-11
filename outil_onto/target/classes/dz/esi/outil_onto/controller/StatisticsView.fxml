@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="752.0" prefWidth="1125.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dz.esi.outil_onto.controller.StatisticsCont">
+   <children>
+      <ScrollPane layoutX="20.0" layoutY="20.0" prefHeight="752.0" prefWidth="1125.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <content>
+            <AnchorPane fx:id="statistiquesContent3" prefHeight="1932.0" prefWidth="1113.0">
+               <children>
+                  <VBox prefHeight="1400.0" prefWidth="1113.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <children>
+                        <Label StyleClass="title" text="Dashboard :" textFill="#455a64">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets left="10.0" />
+                           </VBox.margin>
+                        </Label>
+                        <Label StyleClass="line" prefHeight="27.0" prefWidth="1191.0">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets left="10.0" right="10.0" />
+                           </VBox.margin>
+                        </Label>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="500.0" prefWidth="1043.0" style="-fx-background-color: #ffffff; -fx-background-radius: 6; -fx-border-color: #455a64; -fx-border-radius: 6;">
+                           <children>
+                              <fx:include source="statIndicatorMappingsView.fxml" />
+                           </children>
+                           <VBox.margin>
+                              <Insets left="35.0" right="35.0" top="10.0" />
+                           </VBox.margin>
+                        </AnchorPane>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="400.0" prefWidth="1043.0" style="-fx-background-color: #ffffff; -fx-background-radius: 6; -fx-border-color: #455a64; -fx-border-radius: 6;">
+                           <children>
+                              <fx:include source="statIndicatorKpiView.fxml" />
+                           </children>
+                           <VBox.margin>
+                              <Insets left="35.0" right="35.0" top="10.0" />
+                           </VBox.margin>
+                        </AnchorPane>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="500.0" prefWidth="747.0" style="-fx-background-color: #ffffff; -fx-background-radius: 6; -fx-border-color: #455a64; -fx-border-radius: 6;">
+                           <children>
+                              <fx:include source="statIndicatorExtIntView.fxml" />
+                           </children>
+                           <VBox.margin>
+                              <Insets bottom="10.0" left="35.0" right="35.0" top="10.0" />
+                           </VBox.margin>
+                        </AnchorPane>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="500.0" prefWidth="747.0" style="-fx-background-color: #ffffff; -fx-background-radius: 6; -fx-border-radius: 6; -fx-border-color: #455a64;">
+                           <children>
+                              <fx:include source="statIndicatorInstancesView.fxml" />
+                           </children>
+                           <VBox.margin>
+                              <Insets bottom="70.0" left="35.0" right="35.0" top="10.0" />
+                           </VBox.margin>
+                        </AnchorPane>
+                     </children>
+                  </VBox>
+               </children>
+            </AnchorPane>
+         </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>

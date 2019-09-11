@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?scenebuilder-stylesheet Style.css?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.image.Image?>
+
+<AnchorPane prefHeight="556.0" prefWidth="633.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dz.esi.outil_onto.controller.Controller">
+   <children>
+      <AnchorPane fx:id="accueilContent" layoutX="232.0" layoutY="31.0" prefHeight="567.0" prefWidth="487.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="240.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="31.0">
+         <children>
+            <fx:include source="../controller/OntologyView.fxml" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="requirementContent" layoutX="241.0" layoutY="30.0" prefHeight="567.0" prefWidth="433.0" visible="false" AnchorPane.leftAnchor="240.0" AnchorPane.rightAnchor="0.0">
+         <children>
+            <fx:include source="../controller/RequirementsView.fxml" />
+         </children></AnchorPane>
+      <AnchorPane fx:id="ETLContent" layoutX="240.0" layoutY="30.0" prefHeight="567.0" prefWidth="433.0" visible="false">
+         <children>
+            <fx:include source="../controller/ETLsView.fxml" />
+         </children></AnchorPane>
+      <AnchorPane fx:id="mappingContent" layoutX="240.0" layoutY="30.0" prefHeight="567.0" prefWidth="433.0" visible="false">
+         <children>
+            <fx:include fx:id="MappingView" source="../controller/MappingView.fxml" />
+         </children></AnchorPane>
+      <AnchorPane fx:id="statistiquesContent" layoutX="240.0" layoutY="30.0" prefHeight="752.0" prefWidth="1127.0" visible="false">
+         <children>
+            <fx:include source="../controller/StatisticsView.fxml" />
+         </children></AnchorPane>
+      <VBox layoutY="31.0" prefHeight="754.0" prefWidth="241.0">
+         <children>
+            <AnchorPane StyleClass="line_menu" prefHeight="37.0" prefWidth="240.0" style="-fx-background-color: #607d8b;">
+               <effect>
+                  <DropShadow />
+               </effect>
+               <children>
+                <Label StyleClass="Menu_title" alignment="CENTER" graphicTextGap="20.0" prefHeight="37.0" prefWidth="204.0" style="-fx-background-color: #607d8b;" text="Menu" textAlignment="CENTER" textFill="#e1dcdc" AnchorPane.leftAnchor="37.0" />
+               </children>
+            </AnchorPane>
+            <AnchorPane prefHeight="717.0" prefWidth="240.0" style="-fx-background-color: #37474f;">
+               
+               <children>
+                  <VBox prefHeight="717.0" prefWidth="240.0" AnchorPane.bottomAnchor="-190.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <children>
+                        <Button fx:id="accueilMenuItem" alignment="CENTER_RIGHT" graphicTextGap="115.0" mnemonicParsing="false" onAction="#accueilMenuItemAct" prefHeight="51.0" prefWidth="240.0" text="Home" textAlignment="JUSTIFY" textFill="#e8e8e8" wrapText="true">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                           <graphic>
+                              <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="0.0" layoutY="0.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@img/home.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </Button>
+                        <Button fx:id="besoinsMenuItem" alignment="CENTER_RIGHT" graphicTextGap="65.0" mnemonicParsing="false" onAction="#besoinsMenuItemAct" prefHeight="51.0" prefWidth="240.0" text="Requirements" textAlignment="JUSTIFY" textFill="#e8e8e8" wrapText="true">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                           <graphic>
+                              <ImageView fitHeight="30.0" fitWidth="30.0" layoutX="0.0" layoutY="0.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@img/requirements.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </Button>
+                        <Button fx:id="mappingMenuItem" alignment="CENTER_RIGHT" graphicTextGap="90.0" mnemonicParsing="false" onAction="#MappingMenuItemAct" prefHeight="51.0" prefWidth="240.0" text="Mappings" textFill="#e8e8e8">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                           <graphic>
+                              <ImageView fitHeight="30.0" fitWidth="30.0" layoutX="0.0" layoutY="0.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@img/mapping.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </Button>
+                        <Button fx:id="ETLMenuItem" alignment="CENTER_RIGHT" graphicTextGap="80.0" mnemonicParsing="false" onAction="#ETLMenuItemAct" prefHeight="51.0" prefWidth="240.0" text="ETL process" textFill="#e8e8e8">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                           <graphic>
+                              <ImageView fitHeight="30.0" fitWidth="30.0" layoutX="0.0" layoutY="0.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@img/etl.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </Button>
+                        <Button fx:id="statistiquesMenuItem" alignment="CENTER_RIGHT" graphicTextGap="85.0" mnemonicParsing="false" onAction="#statistiquesMenuItemAct" prefHeight="51.0" prefWidth="240.0" text="Dashboard" textFill="#e8e8e8">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                           <graphic>
+                              <ImageView fitHeight="30.0" fitWidth="30.0" layoutX="0.0" layoutY="0.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@img/dashboard.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </Button>
+                     </children>
+                  </VBox>
+               </children>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </AnchorPane>
+         </children>
+      </VBox>
+      <AnchorPane id="Barre_g" layoutY="31.0" prefHeight="710.0" prefWidth="36.0" style="-fx-background-color: #607d8b;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="31.0">
+         <effect>
+            <DropShadow />
+         </effect>
+      </AnchorPane>
+      <SplitPane prefHeight="31.0" prefWidth="633.0" style="-fx-background-color: #37474f;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <items>
+            <Label alignment="TOP_CENTER" contentDisplay="CENTER" layoutX="100.0" layoutY="200.0" prefHeight="27.0" prefWidth="1182.0" text="                                                                 Semantic Data Warehouse" textAlignment="CENTER" textFill="#b0bec5">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+         </items>
+         <effect>
+            <DropShadow />
+         </effect>
+      </SplitPane>
+   </children>
+   
+</AnchorPane>

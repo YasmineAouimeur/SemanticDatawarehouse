@@ -1,0 +1,270 @@
+
+.root {
+    -fx-font-size: 14px;
+    -fx-font-family: sans-serif;
+    -fx-background-color: #ffffff;
+}
+
+.header-section {
+    -fx-padding: 10px;
+    -fx-font-size: 20px;
+    -fx-background-color: teal;
+}
+
+.header-section Label {
+    -fx-text-fill: #ffffff;
+    -fx-padding: 10px;
+}
+
+#account {
+    -fx-background-color: transparent;
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 16px;
+    -fx-cursor: hand;
+}
+
+.sidebar-section {
+	
+    -fx-border-width: 1;
+    -fx-border-color: transparent #E8E8E8 transparent transparent;
+}
+
+.sidebar-section Label {
+    -fx-font-size: 18px;
+    -fx-padding: 10 15 10 15;
+    -fx-border-width: 1;
+    -fx-border-color: transparent transparent #E8E8E8 transparent;
+    -fx-min-width: 200px;
+    -fx-pref-width: 200px;
+    -fx-max-width: 200px;
+}
+
+.content-section {
+    -fx-padding: 10 20 10 20;
+    -fx-wrap-text: true;
+
+}
+
+#content-header {
+    -fx-font-size: 18px;
+    -fx-padding: 0 0 10 0;
+    -fx-font-weight: 700;
+}
+
+#content {
+    -fx-wrap-text: true;
+    -fx-font-size: 16px;
+}
+
+#footer-section {
+    -fx-alignment: center;
+    -fx-padding: 10 10 10 10;
+    -fx-border-width: 1;
+    -fx-border-color: #E8E8E8 transparent transparent transparent;
+}
+.label-c{
+	-fx-text-fill: red;
+}
+.button{
+	-fx-background-color: 
+        #37474f,
+        linear-gradient(#37474f 50%, white 100%),
+        radial-gradient(center 50% -40%, radius 200%, #37474f 85%, rgba(96,125,139,0) 10%);
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,1;
+    -fx-text-fill: #ffffff;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,1) , 3, 0.0 , 0 , 1 );
+    -fx-border-width: 0.5;
+    -fx-font-family: "Segoe UI Semibold";
+}
+.button:hover{
+	-fx-background-color: 
+        #607d8b,
+        linear-gradient(#607d8b 50%, white 100%),
+        radial-gradient(center 50% -40%, radius 200%, #607d8b 85%, rgbargba(55,71,79,0) 10%);
+	-fx-border-width: 0.5;
+}
+.button:focused{
+	-fx-background-color: #607d8b;
+	-fx-border-width: 0.5;
+}
+#ETLMenuItem{
+	-fx-background-color: transparent;
+    -fx-text-fill: #e8e8e8;
+    -fx-cursor: hand;
+    -fx-border-width: 0.2;
+    -fx-border-color: transparent transparent #E8E8E8 transparent;
+}
+#ETLMenuItem:hover{
+	-fx-background-color: #607d8b;
+	-fx-text-fill: #E8E8E8;
+    -fx-border-width: 0;
+}
+#ETLMenuItem:focused{
+	-fx-background-color: #607d8b;
+	-fx-text-fill: #E8E8E8;
+    -fx-border-width: 0;
+}
+#besoinsMenuItem{
+	-fx-background-color: transparent;
+    -fx-text-fill: #e8e8e8;
+    -fx-cursor: hand;
+    -fx-border-width: 0.2;
+    -fx-border-color: transparent transparent #E8E8E8 transparent;
+}
+#besoinsMenuItem:hover{
+	-fx-background-color: #607d8b;
+	-fx-text-fill: #E8E8E8;
+    -fx-border-width: 0;
+}
+#besoinsMenuItem:focused{
+	-fx-background-color: #607d8b;
+	-fx-text-fill: #E8E8E8;
+    -fx-border-width: 0;
+}
+#mappingMenuItem{
+	-fx-background-color: transparent;
+    -fx-text-fill: #e8e8e8;
+    -fx-cursor: hand;
+    -fx-border-width: 0.2;
+    -fx-border-color: transparent transparent #E8E8E8 transparent;
+}
+#mappingMenuItem:hover{
+	-fx-background-color: #607d8b;
+	-fx-text-fill: #E8E8E8;
+    -fx-border-width: 0;
+}
+#mappingMenuItem:focused{
+	-fx-background-color: #607d8b;
+	-fx-text-fill: #E8E8E8;
+    -fx-border-width: 0;
+}
+#statistiquesMenuItem{
+	-fx-background-color: transparent;
+    -fx-text-fill: #e8e8e8;
+    -fx-cursor: hand;
+    -fx-border-width: 0.2;
+    -fx-border-color: transparent transparent #E8E8E8 transparent;
+}
+#statistiquesMenuItem:hover{
+	-fx-background-color: #607d8b;
+	-fx-text-fill: #E8E8E8;
+    -fx-border-width: 0;
+}
+#statistiquesMenuItem:focused{
+	-fx-background-color: #607d8b;
+	-fx-text-fill: #E8E8E8;
+    -fx-border-width: 0;
+}
+#accueilMenuItem{
+	-fx-background-color: transparent;
+    -fx-text-fill: #e8e8e8;
+    -fx-cursor: hand;
+    -fx-border-width: 0.2;
+    -fx-border-color: transparent transparent #E8E8E8 transparent;
+}
+#accueilMenuItem:hover{
+	-fx-background-color: #607d8b;
+	-fx-text-fill: #E8E8E8;
+    -fx-border-width: 0;
+}
+#accueilMenuItem:focused{
+	-fx-background-color: #607d8b;
+	-fx-text-fill: #E8E8E8;
+    -fx-border-width: 0;
+}
+.Menu_title{
+	-fx-background-color: #607d8b;
+    -fx-text-fill: #e8e8e8;
+	-fx-font-size: 24px;
+    -fx-padding: 10 15 10 15;
+    -fx-min-width: 200px;
+    -fx-pref-width: 200px;
+    -fx-max-width: 200px;
+    -fx-font-family: "Segoe UI Semibold";
+}
+.tab-pane .tab-header-area .tab-header-background {
+    -fx-opacity: 0;
+}
+
+.tab-pane
+{
+    -fx-tab-min-width:90px;
+}
+
+.tab{
+    -fx-background-insets: 0 1 0 1,0,0;
+}
+.tab-pane .tab
+{
+    -fx-background-color: #e6e6e6;
+
+}
+
+.tab-pane .tab:selected
+{
+    -fx-background-color: #37474f;
+}
+.tab-pane .tab:selected .anchor-pane
+{
+    -fx-background-color: #37474f;
+}
+
+.tab .tab-label { 
+    -fx-alignment: CENTER;
+    -fx-text-fill: #37474f;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+}
+
+.tab:selected .tab-label { 
+    -fx-alignment: CENTER;
+    -fx-text-fill: #E8E8E8;
+}
+.tab-pane:top *.tab-header-area {
+    -fx-background-insets: 0, 0 0 1 0;
+ /* -fx-padding: 0.416667em 0.166667em 0.0em 0.833em; /* 5 2 0 10 */
+    -fx-padding: 0.416667em 0.166667em 0.0em 0.0em; /* overridden as 5 2 0 0 */
+}
+.combo-box{
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,1;
+    -fx-border-width: 3;
+    -fx-border-radius: 30;
+    -fx-border-color: #37474f;
+}
+.combo-box:hover{
+	
+	-fx-border-width: 3;
+	-fx-border-color: #607d8b;
+}
+.combo-box:focused{
+	
+	-fx-border-width: 3;
+	-fx-border-color: #607d8b;
+}
+.text-field{
+	-fx-font-family: "Segoe UI Semibold";
+	-fx-text-fill: #37474f;
+	-fx-border-width: 1;
+	-fx-border-color:#37474f;
+    -fx-border-radius: 5;
+}
+.line{
+	-fx-border-width: 1;
+	-fx-border-color: #607d8b transparent transparent transparent;
+}
+.line_menu{
+	-fx-border-width: 3;
+	-fx-border-color: transparent transparent #e8e8e8 transparent;
+}
+.title{
+	-fx-background-color: transparent;
+    -fx-text-fill: #607d8b;
+	-fx-font-size: 24px;
+    -fx-padding: 10 15 10 15;
+    -fx-min-width: 200px;
+    -fx-pref-width: 200px;
+    -fx-max-width: 200px;
+    -fx-font-family: "Segoe UI Semibold";
+}

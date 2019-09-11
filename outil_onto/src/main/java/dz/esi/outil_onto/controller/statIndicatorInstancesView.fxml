@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="370.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dz.esi.outil_onto.controller.statIndicatorInstances">
+   <children>
+      <VBox layoutX="20.0" layoutY="20.0" prefHeight="363.0" prefWidth="1020.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#loadData" text="Refresh">
+               <VBox.margin>
+                  <Insets left="10.0" top="10.0" />
+               </VBox.margin></Button>
+            <Pane fx:id="paneView" prefHeight="351.0" prefWidth="784.0" />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

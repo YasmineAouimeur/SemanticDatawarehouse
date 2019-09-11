@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="752.0" prefWidth="1125.0" style="-fx-background-color: #f4f4f4;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dz.esi.outil_onto.controller.OntologyCont">
+   <children>
+      <TabPane layoutX="10.0" layoutY="10.0" prefHeight="752.0" prefWidth="1125.0" tabClosingPolicy="UNAVAILABLE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <tabs>
+            <Tab text="Internal sources">
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <AnchorPane fx:id="mappingContent" prefHeight="633.0" prefWidth="1033.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+                           <children>
+                              <SplitPane fx:id="openOWLContent1111" layoutX="-2.0" layoutY="14.0" nodeOrientation="LEFT_TO_RIGHT" orientation="VERTICAL" prefHeight="723.0" prefWidth="1122.0" AnchorPane.bottomAnchor="-90.0" AnchorPane.leftAnchor="-2.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                 <items>
+                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="137.0" prefWidth="385.0">
+                                       <children>
+                                          <VBox prefHeight="752.0" prefWidth="1125.0" style="-fx-background-color: #f4f4f4; -fx-border-color: #37474f;">
+                                             <children>
+                                                <Label text="Manage internal sources : " textFill="#455a64">
+                                                   <font>
+                                                      <Font name="System Bold" size="18.0" />
+                                                   </font>
+                                                   <VBox.margin>
+                                                      <Insets left="35.0" />
+                                                   </VBox.margin>
+                                                </Label>
+                                                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="81.0" prefWidth="1083.0">
+                                                   <children>
+                                                      <VBox prefHeight="110.0" prefWidth="1083.0" AnchorPane.bottomAnchor="27.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                         <children>
+                                                            <Label text="Ontology path :" textFill="#455a64">
+                                                               <font>
+                                                                  <Font name="System Bold" size="12.0" />
+                                                               </font>
+                                                               <VBox.margin>
+                                                                  <Insets bottom="10.0" left="35.0" />
+                                                               </VBox.margin>
+                                                            </Label>
+                                                            <HBox prefHeight="81.0" prefWidth="1083.0">
+                                                               <children>
+                                                                  <TextField fx:id="Onto" prefHeight="25.0" prefWidth="555.0" promptText="C:\Users\houria\Desktop\DataSet\dataset5.owl" text="C:\Users\houria\Desktop\DataSet\dataset5.owl">
+                                                                     <HBox.margin>
+                                                                        <Insets left="40.0" right="50.0" />
+                                                                     </HBox.margin>
+                                                                  </TextField>
+                                                                  <Button fx:id="OntoPrefi1" mnemonicParsing="false" onAction="#OpenOWL" prefHeight="25.0" prefWidth="460.0" text="Open">
+                                                                     <HBox.margin>
+                                                                        <Insets right="40.0" />
+                                                                     </HBox.margin>
+                                                                  </Button>
+                                                               </children>
+                                                            </HBox>
+                                                         </children>
+                                                      </VBox>
+                                                   </children>
+                                                   <VBox.margin>
+                                                      <Insets left="20.0" right="20.0" top="10.0" />
+                                                   </VBox.margin>
+                                                </AnchorPane>
+                                                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="137.0" prefWidth="385.0">
+                                                   <children>
+                                                      <VBox prefHeight="137.0" prefWidth="1065.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                         <children>
+                                                            <Label prefHeight="17.0" prefWidth="123.0" text="Add a new prefix :" textFill="#455a64">
+                                                               <font>
+                                                                  <Font name="System Bold" size="12.0" />
+                                                               </font>
+                                                               <VBox.margin>
+                                                                  <Insets bottom="10.0" left="35.0" />
+                                                               </VBox.margin>
+                                                            </Label>
+                                                            <HBox prefHeight="137.0" prefWidth="1065.0">
+                                                               <children>
+                                                                  <TextField fx:id="Prefi" prefHeight="25.0" prefWidth="555.0" promptText="http://www.co-ode.org/ontologies/ont.owl#" text="http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/">
+                                                                     <HBox.margin>
+                                                                        <Insets left="40.0" right="50.0" />
+                                                                     </HBox.margin>
+                                                                  </TextField>
+                                                                  <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="460.0" text="Add">
+                                                                     <HBox.margin>
+                                                                        <Insets right="40.0" />
+                                                                     </HBox.margin>
+                                                                  </Button>
+                                                               </children>
+                                                            </HBox>
+                                                         </children>
+                                                      </VBox>
+                                                   </children>
+                                                   <VBox.margin>
+                                                      <Insets left="20.0" right="20.0" />
+                                                   </VBox.margin>
+                                                </AnchorPane>
+                                             </children>
+                                          </VBox>
+                                          <AnchorPane fx:id="BackMessage" prefHeight="723.0" prefWidth="1125.0" style="-fx-background-color: black; -fx-opacity: 0.6;" visible="false" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                                          <VBox fx:id="Message" prefHeight="146.0" prefWidth="641.0" style="-fx-background-color: #37474f; -fx-border-color: #E8E8E8; -fx-background-radius: 3; -fx-border-radius: 3;" visible="false" AnchorPane.leftAnchor="200.0" AnchorPane.rightAnchor="284.0" AnchorPane.topAnchor="216.0">
+                                             <children>
+                                                <Label fx:id="OpenOWLMessage" prefHeight="25.0" prefWidth="688.0" style="-fx-text-fill: white;" text="Label">
+                                                   <VBox.margin>
+                                                      <Insets left="40.0" right="40.0" top="40.0" />
+                                                   </VBox.margin>
+                                                   <font>
+                                                      <Font name="System Bold" size="12.0" />
+                                                   </font>
+                                                </Label>
+                                                <Button mnemonicParsing="false" onAction="#OK" prefHeight="25.0" prefWidth="86.0" text="Ok">
+                                                   <VBox.margin>
+                                                      <Insets bottom="10.0" left="300.0" right="200.0" top="20.0" />
+                                                   </VBox.margin>
+                                                </Button>
+                                             </children>
+                                          </VBox>
+                                       </children>
+                                    </AnchorPane>
+                                 </items>
+                              </SplitPane>
+                           </children>
+                        </AnchorPane>
+                     </children>
+                  </AnchorPane>
+               </content>
+            </Tab>
+            <Tab text="External sources">
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <AnchorPane prefHeight="845.0" prefWidth="1120.0" style="-fx-background-color: #f4f4f4;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                           <children>
+                              <VBox prefHeight="845.0" prefWidth="1120.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                              <VBox layoutX="10.0" layoutY="10.0" prefHeight="400.0" prefWidth="1065.0">
+                                 <children>
+                                    <Label text="Manage external sources :" textFill="#455a64">
+                                       <font>
+                                          <Font name="System Bold" size="18.0" />
+                                       </font>
+                                       <VBox.margin>
+                                          <Insets left="35.0" />
+                                       </VBox.margin>
+                                    </Label>
+                                    <Label prefHeight="17.0" prefWidth="193.0" text="Add external sources :" textFill="#455a64">
+                                       <font>
+                                          <Font name="System Bold" size="12.0" />
+                                       </font>
+                                       <VBox.margin>
+                                          <Insets bottom="10.0" left="35.0" top="10.0" />
+                                       </VBox.margin>
+                                    </Label>
+                                    <HBox prefHeight="45.0" prefWidth="1065.0">
+                                       <children>
+                                          <TextField fx:id="metadata" prefHeight="25.0" prefWidth="555.0" promptText="C:\Users\houria\Desktop\DataSet\sdw_en_compact-stdreif.nq" text="C:\Users\houria\Desktop\DataSet\sdw_en_compact-stdreif.nq">
+                                             <HBox.margin>
+                                                <Insets left="40.0" right="50.0" />
+                                             </HBox.margin>
+                                          </TextField>
+                                          <Button mnemonicParsing="false" onAction="#extractMetadata" prefHeight="25.0" prefWidth="460.0" text="Open">
+                                             <HBox.margin>
+                                                <Insets right="40.0" />
+                                             </HBox.margin>
+                                          </Button>
+                                       </children>
+                                    </HBox>
+                                    <Label prefHeight="17.0" prefWidth="193.0" text="External sources  details :" textFill="#455a64">
+                                       <font>
+                                          <Font name="System Bold" size="12.0" />
+                                       </font>
+                                       <VBox.margin>
+                                          <Insets bottom="10.0" left="35.0" />
+                                       </VBox.margin>
+                                    </Label>
+                                    <HBox prefHeight="50.0" prefWidth="1065.0">
+                                       <children>
+                                          <Button mnemonicParsing="false" onAction="#extractMetadata" prefHeight="25.0" prefWidth="460.0" text="view external source formats">
+                                             <HBox.margin>
+                                                <Insets left="40.0" right="40.0" top="10.0" />
+                                             </HBox.margin>
+                                          </Button>
+                                          <Button mnemonicParsing="false" onAction="#extractMetadata" prefHeight="25.0" prefWidth="460.0" text="View external classes">
+                                             <HBox.margin>
+                                                <Insets left="40.0" right="40.0" top="10.0" />
+                                             </HBox.margin>
+                                          </Button>
+                                       </children>
+                                    </HBox>
+                                    <HBox prefHeight="100.0" prefWidth="200.0">
+                                       <children>
+                                          <TextArea prefHeight="168.0" prefWidth="1065.0">
+                                             <HBox.margin>
+                                                <Insets left="40.0" right="20.0" />
+                                             </HBox.margin>
+                                          </TextArea>
+                                          <TextArea fx:id="instancesTextField" prefHeight="168.0" prefWidth="1065.0">
+                                             <HBox.margin>
+                                                <Insets left="20.0" right="40.0" />
+                                             </HBox.margin>
+                                          </TextArea>
+                                       </children>
+                                    </HBox>
+                                 </children>
+                              </VBox>
+                           </children>
+                        </AnchorPane>
+                     </children>
+                  </AnchorPane>
+               </content>
+            </Tab>
+         </tabs>
+      </TabPane>
+   </children>
+</AnchorPane>
